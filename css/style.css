@@ -1,0 +1,99 @@
+.booking__layout {
+    width: 100%;
+    height: 79vh;
+    background-image: url(../images/img-6.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 70px;
+}
+
+.booking__content {
+    font-size: 30px;
+    margin-left: 555px;
+    text-transform: uppercase;
+}
+
+.bcontent_1 {
+    padding-top: 80px;
+}
+
+.bcontent_2 {
+    color: white;
+}
+
+.booking__phone {
+    width: 19%;
+    height: 100%;
+    background-image: url(../images/img-7.png);
+    background-repeat: no-repeat;
+    background-size: 90% 85%;
+    float: right;
+    margin-top: 70px;
+    margin-right: 80px;
+}
+
+footer.bg-dark.text-center.text-white {
+    padding-bottom: 25px;
+}
+
+h5.text-capitalize {
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.footer__address.col-lg-3 {
+    width: 260px;
+    margin-right: 35px;
+    margin-left: 80px;
+}
+
+.footer__links.col-lg-3 {
+    width: 260px;
+}
+
+.footer__followUs.col-lg-3 {
+    width: 260px;
+}
+
+.footer__email.col-lg-3 {
+    width: 260px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a.footer__follow {
+    color: white;
+    text-decoration: none;
+}
+
+a.footer__link {
+    color: white;
+    text-decoration: none;
+}
+
+img.footer__img {
+    margin-right: 10px;
+}
+
+input#btn-email {
+    width: 200px;
+    padding: 8px;
+}
+
+button.btn.btn-outline-light {
+    margin: 12px 0 4px;
+    padding: 8px 14px;
+    background-color: #FFC61A;
+    border: #FFC61A;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer__copyright {
+    color: black;
+    background-color: white;
+    text-align: center;
+}
