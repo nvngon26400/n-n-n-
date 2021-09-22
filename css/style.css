@@ -1,13 +1,296 @@
-*{
+* {
     font-size: 62.5%;
 }
- 
-.booking {  
+
+.booking__layout {
+    width: 100%;
+    height: 79vh;
+    background-image: url(../images/img-6.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 70px;
 }
+
+.booking__content {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 15rem;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
+
+.bcontent_1 {
+    padding-top: 80px;
+}
+
+.bcontent_2 {
+    color: white;
+}
+
+.booking__phone {
+    width: 19%;
+    height: 100%;
+    background-image: url(../images/img-7.png);
+    background-repeat: no-repeat;
+    background-size: 90% 85%;
+    float: right;
+    margin-top: 70px;
+    margin-right: 80px;
+}
+
+footer.bg-dark.text-center.text-white {
+    padding-bottom: 25px;
+}
+
+h5.text-capitalize {
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.footer__address.col-lg-3 {
+    width: 260px;
+    margin-right: 35px;
+    margin-left: 80px;
+}
+
+.footer__links.col-lg-3 {
+    width: 260px;
+}
+
+.footer__followUs.col-lg-3 {
+    width: 260px;
+}
+
+.footer__email.col-lg-3 {
+    width: 260px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a.footer__follow {
+    color: white;
+    text-decoration: none;
+}
+
+a.footer__link {
+    color: white;
+    text-decoration: none;
+}
+
+img.footer__img {
+    margin-right: 10px;
+}
+
+input#btn-email {
+    width: 200px;
+    padding: 8px;
+}
+
+button.btn.btn-outline-light {
+    margin: 12px 0 4px;
+    padding: 8px 14px;
+    background-color: #FFC61A;
+    border: #FFC61A;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer__copyright {
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .footer__address.col-lg-3 {
+        width: 100%;
+        margin: 0;
+    }
+    .footer__links.col-lg-3 {
+        width: 130px;
+        text-align: left;
+    }
+    .footer__followUs.col-lg-3 {
+        width: 140px;
+        text-align: left;
+    }
+    .footer__email.col-lg-3 {
+        width: 130px;
+        text-align: left;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .booking__layout {
+        height: 35vh;
+        margin-bottom: 40px;
+    }
+    .booking__content {
+        font-size: 22px;
+        text-align: center;
+        margin-left: 11rem;
+        text-transform: uppercase;
+    }
+    .booking__phone {
+        background-size: 80% 75%;
+        margin-top: 55px;
+        margin-right: 35px;
+    }
+    .bcontent_1 {
+        padding-top: 20px;
+    }
+    .footer__address.col-lg-3 {
+        width: 100%;
+        margin: 0;
+    }
+    .footer__links.col-lg-3 {
+        width: 130px;
+        text-align: left;
+    }
+    .footer__followUs.col-lg-3 {
+        width: 140px;
+        text-align: left;
+    }
+    .footer__email.col-lg-3 {
+        width: 130px;
+        text-align: left;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .booking__layout {
+        height: 45vh;
+        margin-bottom: 45px;
+    }
+    .booking__content {
+        font-size: 26px;
+        text-align: center;
+        margin-left: 13rem;
+        text-transform: uppercase;
+    }
+    .booking__phone {
+        background-size: 78% 78%;
+        margin-top: 58px;
+        margin-right: 35px;
+    }
+    .bcontent_1 {
+        padding-top: 40px;
+    }
+    .footer__address.col-lg-3 {
+        width: 100%;
+        margin: 0;
+    }
+    .footer__links.col-lg-3 {
+        width: 165px;
+        text-align: left;
+    }
+    .footer__followUs.col-lg-3 {
+        width: 165px;
+        text-align: left;
+    }
+    .footer__email.col-lg-3 {
+        width: 165px;
+        text-align: left;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .booking__layout {
+        height: 58vh;
+        margin-bottom: 50px;
+    }
+    .booking__content {
+        font-size: 28px;
+        text-align: center;
+        margin-left: 14rem;
+        text-transform: uppercase;
+    }
+    .booking__phone {
+        background-size: 80% 80%;
+        margin-top: 65px;
+        margin-right: 35px;
+    }
+    .bcontent_1 {
+        padding-top: 60px;
+    }
+    .footer__address.col-lg-3 {
+        width: 180px;
+    }
+    .footer__links.col-lg-3 {
+        width: 180px;
+    }
+    .footer__followUs.col-lg-3 {
+        width: 180px;
+    }
+    .footer__email.col-lg-3 {
+        width: 180px;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    .footer__address.col-lg-3 {
+        width: 240px;
+    }
+    .footer__links.col-lg-3 {
+        width: 240px;
+    }
+    .footer__followUs.col-lg-3 {
+        width: 240px;
+    }
+    .footer__email.col-lg-3 {
+        width: 240px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .bcontent_1 {
+        padding-top: 80px;
+    }
+    .footer__address.col-lg-3 {
+        width: 260px;
+        margin-right: 35px;
+        margin-left: 80px;
+    }
+    .footer__links.col-lg-3 {
+        width: 260px;
+    }
+    .footer__followUs.col-lg-3 {
+        width: 260px;
+    }
+    .footer__email.col-lg-3 {
+        width: 260px;
+    }
+}
+
+* {
+    font-size: 62.5%;
+}
+
+.booking {}
+
 
 /* -----------------style title booking------------------------- */
 
-.booking__title{
+.booking__title {
     font-size: 7rem;
     font-weight: 500;
     width: 50rem;
@@ -18,13 +301,14 @@
     border-bottom: 1px solid black;
 }
 
-.title__color--black{
+.title__color--black {
     color: rgba(0, 0, 0, 0.801)
 }
 
-.title__color--yellow{
-    color:rgb(246, 225, 81)
+.title__color--yellow {
+    color: rgb(246, 225, 81)
 }
+
 
 /* ----------------------------style item booking---------------------------- */
 
@@ -33,50 +317,52 @@
     justify-content: center;
 }
 
+
 /* ---------------------image------------------ */
 
-.item__image{
+.item__image {
     width: 30%;
     height: 28rem;
     padding: 0;
     cursor: pointer;
 }
 
-.item__image--left{
+.item__image--left {
     order: 1;
 }
 
-.item__image--right{
+.item__image--right {
     order: 2;
 }
 
+
 /* ----------------- content------------------------- */
 
-.item__content{
-    width: 60%; 
+.item__content {
+    width: 60%;
     display: flex;
     flex-direction: column;
 }
 
-.item__content--right{
-    margin: 1.8rem 0 1.8rem 3rem ;
+.item__content--right {
+    margin: 1.8rem 0 1.8rem 3rem;
     order: 2;
 }
 
-.item__content--left{
-    margin: 1.8rem 3rem 1.8rem 0 ;
+.item__content--left {
+    margin: 1.8rem 3rem 1.8rem 0;
     order: 1;
 }
 
-.content__title{
+.content__title {
     color: rgba(0, 0, 0, 0.753)
 }
 
-.content__title--right{
+.content__title--right {
     text-align: right;
 }
 
-.content__text{
+.content__text {
     font-size: 1.5rem;
     margin: 2rem 0;
     color: rgba(0, 0, 0, 0.753);
@@ -84,40 +370,40 @@
     overflow: hidden;
 }
 
-.content__text--right{
+.content__text--right {
     text-align: right;
 }
 
-.content__button{
+.content__button {
     width: 14.5rem;
     height: 5rem;
     font-size: 1.8rem;
     font-weight: 500;
     color: white;
-    background-color:rgb(253, 212, 46);
+    background-color: rgb(253, 212, 46);
     border: none;
     cursor: pointer;
 }
 
-.content__button--right{
+.content__button--right {
     align-self: flex-end;
 }
 
-.content__button:hover, .content__button:focus{
+.content__button:hover,
+.content__button:focus {
     background-color: rgb(218, 174, 0);
     outline: none;
 }
 
+
 /* media screen */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-
-    .booking__title{
+    .booking__title {
         font-size: 5.5rem;
         font-weight: 500;
         width: 41rem;
     }
-
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -125,30 +411,25 @@
         justify-content: center;
         margin-bottom: 2rem;
     }
-
-    .booking__title{
+    .booking__title {
         font-size: 4.5rem;
         font-weight: 500;
         width: 35rem;
         margin: 4.5rem auto;
     }
-    
-    .item__image{
+    .item__image {
         width: 40%;
         height: 21rem;
     }
-
-    .item__content{
+    .item__content {
         width: 50%;
         align-self: flex-end;
     }
-
-    .content__text{
+    .content__text {
         margin: 1.5rem 0;
         height: 7.2rem;
     }
-
-    .content__button{
+    .content__button {
         height: 4rem;
         font-size: 1.6rem;
         width: 13rem;
@@ -156,8 +437,7 @@
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-    
-    .booking__title{
+    .booking__title {
         font-size: 4.5rem;
         font-weight: 500;
         width: 68%;
@@ -165,43 +445,40 @@
         padding: 0 2rem;
         justify-content: space-evenly;
     }
-
     .booking__item {
         flex-direction: column;
         align-content: center;
         margin-bottom: 3rem;
     }
-
-    .item__image{
+    .item__image {
         width: 65%;
         height: 25rem;
         order: 1;
     }
-
-    .item__content{
+    .item__content {
         width: 65%;
         align-self: flex-end;
         order: 2;
-        margin: 1rem 0 0 ;
+        margin: 1rem 0 0;
     }
-
-    .content__title{
-       text-align: center;
+    .content__title {
+        text-align: center;
     }
-
-    .content__text{
+    .content__text {
         margin: 1rem 0;
         height: 7.2rem;
     }
-
-    .content__button{
+    .content__button {
         height: 4rem;
         font-size: 1.6rem;
         width: 13rem;
         align-self: center;
     }
 }
+
+
 /*===========RESET CSS============= */
+
 * {
     margin: 0;
     padding: 0;
@@ -212,6 +489,7 @@
 :after {
     box-sizing: border-box;
 }
+
 a,
 span,
 img,
@@ -245,6 +523,7 @@ a {
     -ms-transform: all 0.5s ease;
     -o-transform: all 0.5s ease;
 }
+
 
 /* ============== TAXI ===================  */
 
@@ -313,17 +592,16 @@ a {
     padding: 20px;
 }
 
+
 /* REPONSIVE */
 
 @media (max-width: 576px) {
     .container {
         max-width: 400px;
     }
-
     .taxi__item:nth-child(-n + 1) {
         margin-top: 50px;
     }
-
     #taxi h2,
     #taxi h2 p {
         font-size: 50px;
@@ -334,7 +612,6 @@ a {
     .container {
         max-width: 580px;
     }
-
     .content__number {
         padding: 8px 10px;
     }
