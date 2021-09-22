@@ -274,3 +274,357 @@ button.btn.btn-outline-light {
         width: 260px;
     }
 }
+
+* {
+    font-size: 62.5%;
+}
+
+.booking {}
+
+
+/* -----------------style title booking------------------------- */
+
+.booking__title {
+    font-size: 7rem;
+    font-weight: 500;
+    width: 50rem;
+    margin: 7rem auto;
+    padding: 0 4rem .5rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.title__color--black {
+    color: rgba(0, 0, 0, 0.801)
+}
+
+.title__color--yellow {
+    color: rgb(246, 225, 81)
+}
+
+
+/* ----------------------------style item booking---------------------------- */
+
+.booking__item {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ---------------------image------------------ */
+
+.item__image {
+    width: 30%;
+    height: 28rem;
+    padding: 0;
+    cursor: pointer;
+}
+
+.item__image--left {
+    order: 1;
+}
+
+.item__image--right {
+    order: 2;
+}
+
+
+/* ----------------- content------------------------- */
+
+.item__content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.item__content--right {
+    margin: 1.8rem 0 1.8rem 3rem;
+    order: 2;
+}
+
+.item__content--left {
+    margin: 1.8rem 3rem 1.8rem 0;
+    order: 1;
+}
+
+.content__title {
+    color: rgba(0, 0, 0, 0.753)
+}
+
+.content__title--right {
+    text-align: right;
+}
+
+.content__text {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+    color: rgba(0, 0, 0, 0.753);
+    height: 11.5rem;
+    overflow: hidden;
+}
+
+.content__text--right {
+    text-align: right;
+}
+
+.content__button {
+    width: 14.5rem;
+    height: 5rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(253, 212, 46);
+    border: none;
+    cursor: pointer;
+}
+
+.content__button--right {
+    align-self: flex-end;
+}
+
+.content__button:hover,
+.content__button:focus {
+    background-color: rgb(218, 174, 0);
+    outline: none;
+}
+
+
+/* media screen */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .booking__title {
+        font-size: 5.5rem;
+        font-weight: 500;
+        width: 41rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .booking__item {
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .booking__title {
+        font-size: 4.5rem;
+        font-weight: 500;
+        width: 35rem;
+        margin: 4.5rem auto;
+    }
+    .item__image {
+        width: 40%;
+        height: 21rem;
+    }
+    .item__content {
+        width: 50%;
+        align-self: flex-end;
+    }
+    .content__text {
+        margin: 1.5rem 0;
+        height: 7.2rem;
+    }
+    .content__button {
+        height: 4rem;
+        font-size: 1.6rem;
+        width: 13rem;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .booking__title {
+        font-size: 4.5rem;
+        font-weight: 500;
+        width: 68%;
+        margin: 3rem auto;
+        padding: 0 2rem;
+        justify-content: space-evenly;
+    }
+    .booking__item {
+        flex-direction: column;
+        align-content: center;
+        margin-bottom: 3rem;
+    }
+    .item__image {
+        width: 65%;
+        height: 25rem;
+        order: 1;
+    }
+    .item__content {
+        width: 65%;
+        align-self: flex-end;
+        order: 2;
+        margin: 1rem 0 0;
+    }
+    .content__title {
+        text-align: center;
+    }
+    .content__text {
+        margin: 1rem 0;
+        height: 7.2rem;
+    }
+    .content__button {
+        height: 4rem;
+        font-size: 1.6rem;
+        width: 13rem;
+        align-self: center;
+    }
+}
+
+
+/*===========RESET CSS============= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:before,
+:after {
+    box-sizing: border-box;
+}
+
+a,
+span,
+img,
+p,
+:before,
+:after {
+    display: inline-block;
+    font-size: 14px;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.285;
+    font-weight: 400;
+}
+
+:focus {
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    transform: all 0.5s ease;
+    -webkit-transform: all 0.5s ease;
+    -moz-transform: all 0.5s ease;
+    -ms-transform: all 0.5s ease;
+    -o-transform: all 0.5s ease;
+}
+
+
+/* ============== TAXI ===================  */
+
+#taxi {
+    background-color: #151c1e;
+    color: aliceblue;
+}
+
+#taxi h2 {
+    font-weight: 700;
+    color: #fefefe;
+    text-align: center;
+    padding: 60px 0 50px 0;
+    font-size: 38px;
+}
+
+#taxi h2 p {
+    color: #f4db30;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.taxi {
+    padding-bottom: 40px;
+}
+
+.taxi__item {
+    background-color: #ffff;
+    color: #2b3436;
+    font-weight: 500;
+    padding: 20px;
+    position: relative;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+.taxi__item:hover {
+    transform: translateY(15px);
+}
+
+.taxi__content {
+    text-align: center;
+    width: 68%;
+    margin: 0 auto;
+}
+
+.taxi__content .content__description {
+    color: #2b3436;
+    font-size: 16px;
+}
+
+.content__number {
+    color: #fefefe;
+    border: 1px solid #f8ca11;
+    background-color: #f8ca11;
+    padding: 13px 15px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+}
+
+.taxi__content h5 {
+    padding: 20px;
+}
+
+
+/* REPONSIVE */
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 400px;
+    }
+    .taxi__item:nth-child(-n + 1) {
+        margin-top: 50px;
+    }
+    #taxi h2,
+    #taxi h2 p {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 720px) {
+    .container {
+        max-width: 580px;
+    }
+    .content__number {
+        padding: 8px 10px;
+    }
+}
+
+@media (min-width: 721px) and (max-width: 768px) {
+    .container {
+        max-width: 620px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .container {
+        max-width: 900px;
+    }
+}
