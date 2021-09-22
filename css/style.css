@@ -45,6 +45,10 @@ button {
     cursor: pointer;
 }
 
+.send_button a {
+    text-decoration: none;
+}
+
 .full {
     float: left;
     width: 100%;
@@ -64,6 +68,10 @@ button {
     position: absolute;
     top: 0px;
     z-index: 01;
+}
+
+.clear {
+    clear: both;
 }
 
 .logo {
@@ -568,10 +576,6 @@ button {
     margin-right: 80px;
 }
 
-footer.bg-dark.text-center.text-white {
-    padding-bottom: 25px;
-}
-
 h5.text-capitalize {
     font-weight: bold;
     margin-bottom: 25px;
@@ -580,8 +584,6 @@ h5.text-capitalize {
 
 .footer__address.col-lg-3 {
     width: 260px;
-    margin-right: 35px;
-    margin-left: 80px;
 }
 
 .footer__links.col-lg-3 {
