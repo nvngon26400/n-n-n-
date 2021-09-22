@@ -353,6 +353,7 @@ button {
 #taxi {
     background-color: #151c1e;
     color: aliceblue;
+    margin: 4rem 0;
 }
 
 #taxi h2 {
@@ -360,13 +361,14 @@ button {
     color: #fefefe;
     text-align: center;
     padding: 60px 0 50px 0;
-    font-size: 38px;
+    font-size: 3rem;
 }
 
 #taxi h2 p {
     color: #f4db30;
-    font-size: 38px;
+    font-size: 3rem;
     font-weight: 700;
+    display: inline-block;
 }
 
 .taxi {
@@ -402,7 +404,7 @@ button {
     color: #fefefe;
     border: 1px solid #f8ca11;
     background-color: #f8ca11;
-    padding: 13px 15px;
+    padding: 15px 18px;
     border-radius: 50%;
     position: absolute;
     left: 50%;
@@ -412,7 +414,7 @@ button {
 }
 
 .taxi__content h5 {
-    padding: 20px;
+    padding: 30px;
 }
 
 
