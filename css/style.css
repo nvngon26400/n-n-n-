@@ -60,9 +60,7 @@ button {
     float: left;
     background-color: #1a1a1a;
     height: auto;
-    padding-top: 10px;
     padding-bottom: 10px;
-    position: fixed;
     z-index: 01;
 }
 
@@ -92,6 +90,7 @@ button {
 
 .list_menu li a {
     color: #ffffff;
+    text-decoration: none;
 }
 
 .list_menu li a:hover {
