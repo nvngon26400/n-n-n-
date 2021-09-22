@@ -1,4 +1,459 @@
 * {
+    box-sizing: border-box !important;
+    transition: ease all 0.5s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: #1f1f1f;
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h6 {
+    font-size: 13px;
+}
+
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: #212121;
+    text-decoration: none !important;
+    opacity: 1;
+}
+
+button:focus {
+    outline: none;
+}
+
+ul,
+li,
+ol {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+p {
+    margin: 20px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+a {
+    color: #222222;
+    text-decoration: none;
+    outline: none !important;
+}
+
+a,
+.btn {
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+:focus {
+    outline: 0;
+}
+
+.paddind_bottom_0 {
+    padding-bottom: 0 !important;
+}
+
+.btn-custom {
+    margin-top: 20px;
+    background-color: transparent !important;
+    border: 2px solid #ddd;
+    padding: 12px 40px;
+    font-size: 16px;
+}
+
+.lead {
+    font-size: 18px;
+    line-height: 30px;
+    color: #767676;
+    margin: 0;
+    padding: 0;
+}
+
+.form-control:focus {
+    border-color: #ffffff !important;
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+}
+
+.navbar-form input {
+    border: none !important;
+}
+
+.badge {
+    font-weight: 500;
+}
+
+blockquote {
+    margin: 20px 0 20px;
+    padding: 30px;
+}
+
+button {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.full {
+    float: left;
+    width: 100%;
+}
+
+.layout_padding {
+    padding-top: 90px;
+    padding-bottom: 0px;
+}
+
+.header_container {
+    width: 100%;
+    float: left;
+    background-color: #1a1a1a;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    z-index: 01;
+}
+
+.logo {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.list_menu {
+    float: right;
+    width: auto;
+}
+
+.list_menu ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.list_menu li {
+    float: left;
+    padding-right: 75px;
+    font-size: 18px;
+    color: #ffffff;
+    padding-top: 12px;
+}
+
+.list_menu li a {
+    color: #ffffff;
+}
+
+.list_menu li a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.4s all;
+}
+
+.list_menu ul li input {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 20px;
+    transition: 0.6s all;
+}
+
+.list_menu ul li input:focus {
+    border: 3px solid rgb(233, 233, 29);
+    transition: 0.6s all;
+}
+
+.list_menu ul li .search {
+    background-color: gray;
+    padding: 9px 14px;
+    color: white;
+    border-radius: 50%;
+    transition: 0.5s all;
+}
+
+.list_menu ul li .search:hover {
+    background-color: black;
+    color: white;
+    padding: 9px 14px;
+    border-radius: 50%;
+    transition: 0.5s all;
+}
+
+.list_menu li a:hover {
+    color: #f8ca11;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.overlay a {
+    padding: 0px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.phone_book {
+    width: 100%;
+    float: left;
+    background-color: #1a1a1a;
+    height: auto;
+    padding-top: 90px;
+}
+
+.book_now {
+    width: 70%;
+    float: right;
+    background-color: #f8ca11;
+    height: auto;
+    padding: 10px;
+}
+
+.book_text {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #fbfaf6;
+    text-align: center;
+}
+
+.call_text {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #1a1a1a;
+    text-align: center;
+}
+
+.image_1 {
+    width: 80%;
+    float: right;
+    margin-top: 50px;
+}
+
+.booking_text {
+    width: 100%;
+    float: left;
+    font-size: 26px;
+    color: #fbfaf6;
+    text-align: center;
+}
+
+.contact_bg {
+    width: 100%;
+    float: left;
+    padding-top: 0;
+    padding-bottom: 30px;
+    background-color: #fefefe;
+    margin-top: 20px;
+}
+
+.text_form {
+    width: 100%;
+    float: left;
+    font-size: 30px;
+    color: #000;
+    border-bottom: 0px solid#49bcfe;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.email-bt {
+    background: #e1e1e1;
+    border-bottom: 1px solid #fffcf4;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    color: #000;
+    width: 95%;
+    height: 30px;
+    font-size: 20px;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+}
+
+.send_button a {
+    width: 25%;
+    float: right;
+    background-color: #353433;
+    color: #fefefe;
+    text-align: center;
+    padding: 12px 0px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+
+.send_button a {
+    color: #fefefe;
+}
+
+.send_button a:hover {
+    color: white;
+    background: #f8ca11;
+}
+
+#main_slider a.carousel-control-prev {
+    position: absolute;
+    left: 50px;
+    top: 40%;
+    background-color: #f8ca12;
+}
+
+#main_slider .carousel-control-prev,
+#main_slider .carousel-control-next {
+    width: 65px;
+    height: 65px;
+    background: #fff;
+    opacity: 1;
+    font-size: 30px;
+    color: #091e30;
+    border-radius: 100%;
+}
+
+#main_slider a.carousel-control-next {
+    position: absolute;
+    left: 50px;
+    top: 55%;
+}
+
+#main_slider .carousel-control-prev,
+#main_slider .carousel-control-next {
+    width: 65px;
+    height: 65px;
+    background: #fff;
+    opacity: 1;
+    font-size: 30px;
+    color: #000;
+    border-radius: 100%;
+}
+
+#main_slider .carousel-control-prev:hover,
+#main_slider .carousel-control-next:hover,
+#main_slider .carousel-control-prev:focus,
+#main_slider .carousel-control-next:focus {
+    background: #f8ca12;
+    color: #fff;
+}
+
+#main_slider .carousel-control-prev:hover,
+#main_slider .carousel-control-next:hover,
+#main_slider .carousel-control-prev:focus,
+#main_slider .carousel-control-next:focus {
+    background: #f8ca12;
+    color: #fff;
+}
+
+.img-container {
+    margin: 0 auto;
+    height: auto;
+    /** Chiều cao tự động **/
+    margin: 30px auto;
+    /** Cách trên dưới 10px và nằm giữa **/
+    overflow: hidden;
+    /** DÒNG BẮT BUỘC CÓ **/
+    position: relative;
+    width: 600px;
+    /** Chiều rộng vùng chứa **/
+}
+
+.img-container img {
+    width: 100%;
+    /** Hình ảnh rộng 100% so với vùng chứa **/
+    transition: all 0.5s;
+    /** Tạo độ mượt **/
+}
+
+.img-container:hover img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+* {
     font-size: 62.5%;
 }
 
@@ -93,8 +548,8 @@ input#btn-email {
 button.btn.btn-outline-light {
     margin: 12px 0 4px;
     padding: 8px 14px;
-    background-color: #FFC61A;
-    border: #FFC61A;
+    background-color: #ffc61a;
+    border: #ffc61a;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -104,7 +559,6 @@ button.btn.btn-outline-light {
     background-color: white;
     text-align: center;
 }
-
 
 /* Extra small devices (phones, 600px and down) */
 
@@ -126,7 +580,6 @@ button.btn.btn-outline-light {
         text-align: left;
     }
 }
-
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
@@ -167,7 +620,6 @@ button.btn.btn-outline-light {
     }
 }
 
-
 /* Medium devices (landscape tablets, 768px and up) */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -207,7 +659,6 @@ button.btn.btn-outline-light {
     }
 }
 
-
 /* Large devices (laptops/desktops, 992px and up) */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -242,7 +693,6 @@ button.btn.btn-outline-light {
         width: 180px;
     }
 }
-
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
@@ -285,8 +735,8 @@ button.btn.btn-outline-light {
     font-size: 62.5%;
 }
 
-.booking {}
-
+.booking {
+}
 
 /* -----------------style title booking------------------------- */
 
@@ -295,20 +745,19 @@ button.btn.btn-outline-light {
     font-weight: 500;
     width: 50rem;
     margin: 7rem auto;
-    padding: 0 4rem .5rem;
+    padding: 0 4rem 0.5rem;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid black;
 }
 
 .title__color--black {
-    color: rgba(0, 0, 0, 0.801)
+    color: rgba(0, 0, 0, 0.801);
 }
 
 .title__color--yellow {
-    color: rgb(246, 225, 81)
+    color: rgb(246, 225, 81);
 }
-
 
 /* ----------------------------style item booking---------------------------- */
 
@@ -316,7 +765,6 @@ button.btn.btn-outline-light {
     display: flex;
     justify-content: center;
 }
-
 
 /* ---------------------image------------------ */
 
@@ -334,7 +782,6 @@ button.btn.btn-outline-light {
 .item__image--right {
     order: 2;
 }
-
 
 /* ----------------- content------------------------- */
 
@@ -355,7 +802,7 @@ button.btn.btn-outline-light {
 }
 
 .content__title {
-    color: rgba(0, 0, 0, 0.753)
+    color: rgba(0, 0, 0, 0.753);
 }
 
 .content__title--right {
@@ -394,7 +841,6 @@ button.btn.btn-outline-light {
     background-color: rgb(218, 174, 0);
     outline: none;
 }
-
 
 /* media screen */
 
@@ -476,7 +922,6 @@ button.btn.btn-outline-light {
     }
 }
 
-
 /*===========RESET CSS============= */
 
 * {
@@ -523,7 +968,6 @@ a {
     -ms-transform: all 0.5s ease;
     -o-transform: all 0.5s ease;
 }
-
 
 /* ============== TAXI ===================  */
 
@@ -591,7 +1035,6 @@ a {
 .taxi__content h5 {
     padding: 20px;
 }
-
 
 /* REPONSIVE */
 
