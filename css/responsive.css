@@ -211,6 +211,11 @@
     .footer__email.col-lg-3 {
         width: 180px;
     }
+    
+     /*--- taxi --- */
+    #taxi .container {
+        max-width: 950px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -277,6 +282,11 @@
     .footer__email.col-lg-3 {
         width: 165px;
         text-align: left;
+    }
+    
+    /*--- taxi --- */
+    #taxi .container {
+        max-width: 620px;
     }
 }
 
@@ -355,54 +365,37 @@
         width: 130px;
         text-align: left;
     }
+    
+      /*--- taxi --- */
+    #taxi .container {
+        max-width: 520px;
+    }
+
+    .taxi__content {
+        width: 100%;
+    }
+
+    .content__number  {
+        padding: 12px 15px;
+    }
 }
 
 @media only screen and (min-width: 340px) and (max-width: 575px){
 
     /* ----style booking----------------- */
 
-}
-
-/* sytle taxi */
-
-/* REPONSIVE */
-
-/* @media (max-width: 576px) {
-    .container {
+    /*--- taxi ---*/
+    #taxi .container {
         max-width: 400px;
     }
+
     .taxi__item:nth-child(-n + 1) {
         margin-top: 50px;
     }
+
     #taxi h2,
     #taxi h2 p {
         font-size: 50px;
     }
-}
 
-@media (min-width: 577px) and (max-width: 720px) {
-    .container {
-        max-width: 580px;
-    }
-    .content__number {
-        padding: 8px 10px;
-    }
 }
-
-@media (min-width: 721px) and (max-width: 768px) {
-    .container {
-        max-width: 620px;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 992px) {
-    .container {
-        max-width: 720px;
-    }
-}
-
-@media (min-width: 993px) and (max-width: 1200px) {
-    .container {
-        max-width: 900px;
-    }
-} */
