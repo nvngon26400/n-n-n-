@@ -291,4 +291,16 @@
     .item__image, .item__content, .content__title, .content__text, .content__button{
         align-self: center;
     }
+
+    .booking__phone {
+        background-size: 70% 50%;
+    }
+
+    .booking__layout {
+        height: 17rem;
+    }
+
+    .footer__address.col-lg-3 {
+        width: 100%;
+    }
 }
