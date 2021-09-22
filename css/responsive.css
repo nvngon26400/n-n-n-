@@ -28,8 +28,8 @@
     } */
     /*------style booking-end and footer--*/
     .booking__layout {
-        height: 58vh;
-        margin-bottom: 50px;
+        height: 30rem;
+        /* margin-bottom: 4rem; */
     }
     .booking__content {
         font-size: 28px;
@@ -99,8 +99,8 @@
     }
     /*------style booking-end and footer--*/
     .booking__layout {
-        height: 45vh;
-        margin-bottom: 45px;
+        height: 19.3rem;
+        /* margin-bottom: 45px; */
     }
     .booking__content {
         font-size: 26px;
@@ -196,8 +196,8 @@
     }
     /*------style booking-end and footer--*/
     .booking__layout {
-        height: 35vh;
-        margin-bottom: 40px;
+        height: 19rem;
+        /* margin-bottom: 40px; */
     }
     .booking__content {
         font-size: 22px;
