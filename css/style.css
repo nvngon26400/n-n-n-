@@ -16,6 +16,8 @@
     text-align: center;
     margin-left: 15rem;
     text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
 }
 
 .bcontent_1 {
