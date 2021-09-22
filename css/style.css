@@ -201,3 +201,159 @@
         align-self: center;
     }
 }
+/*===========RESET CSS============= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:before,
+:after {
+    box-sizing: border-box;
+}
+a,
+span,
+img,
+p,
+:before,
+:after {
+    display: inline-block;
+    font-size: 14px;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.285;
+    font-weight: 400;
+}
+
+:focus {
+    outline: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    transform: all 0.5s ease;
+    -webkit-transform: all 0.5s ease;
+    -moz-transform: all 0.5s ease;
+    -ms-transform: all 0.5s ease;
+    -o-transform: all 0.5s ease;
+}
+
+/* ============== TAXI ===================  */
+
+#taxi {
+    background-color: #151c1e;
+    color: aliceblue;
+}
+
+#taxi h2 {
+    font-weight: 700;
+    color: #fefefe;
+    text-align: center;
+    padding: 60px 0 50px 0;
+    font-size: 38px;
+}
+
+#taxi h2 p {
+    color: #f4db30;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.taxi {
+    padding-bottom: 40px;
+}
+
+.taxi__item {
+    background-color: #ffff;
+    color: #2b3436;
+    font-weight: 500;
+    padding: 20px;
+    position: relative;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+.taxi__item:hover {
+    transform: translateY(15px);
+}
+
+.taxi__content {
+    text-align: center;
+    width: 68%;
+    margin: 0 auto;
+}
+
+.taxi__content .content__description {
+    color: #2b3436;
+    font-size: 16px;
+}
+
+.content__number {
+    color: #fefefe;
+    border: 1px solid #f8ca11;
+    background-color: #f8ca11;
+    padding: 13px 15px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+}
+
+.taxi__content h5 {
+    padding: 20px;
+}
+
+/* REPONSIVE */
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 400px;
+    }
+
+    .taxi__item:nth-child(-n + 1) {
+        margin-top: 50px;
+    }
+
+    #taxi h2,
+    #taxi h2 p {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 720px) {
+    .container {
+        max-width: 580px;
+    }
+
+    .content__number {
+        padding: 8px 10px;
+    }
+}
+
+@media (min-width: 721px) and (max-width: 768px) {
+    .container {
+        max-width: 620px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .container {
+        max-width: 900px;
+    }
+}
