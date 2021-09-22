@@ -1,110 +1,4 @@
-* {
-    box-sizing: border-box !important;
-    transition: ease all 0.5s;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-a {
-    color: #1f1f1f;
-    text-decoration: none !important;
-    outline: none !important;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-}
-
-h1 {
-    font-size: 24px;
-}
-
-h2 {
-    font-size: 22px;
-}
-
-h3 {
-    font-size: 18px;
-}
-
-h4 {
-    font-size: 16px;
-}
-
-h5 {
-    font-size: 14px;
-}
-
-h6 {
-    font-size: 13px;
-}
-
-*,
-*::after,
-*::before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a,
-h6 a {
-    color: #212121;
-    text-decoration: none !important;
-    opacity: 1;
-}
-
-button:focus {
-    outline: none;
-}
-
-ul,
-li,
-ol {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-}
-
-p {
-    margin: 20px;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 24px;
-}
-
-a {
-    color: #222222;
-    text-decoration: none;
-    outline: none !important;
-}
-
-a,
-.btn {
-    text-decoration: none !important;
-    outline: none !important;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-:focus {
-    outline: 0;
-}
+/*-------------------------------- style header------------------------------- */
 
 .paddind_bottom_0 {
     padding-bottom: 0 !important;
@@ -453,287 +347,76 @@ button {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
-* {
-    font-size: 62.5%;
+
+/* ============== TAXI ===================  */
+
+#taxi {
+    background-color: #151c1e;
+    color: aliceblue;
 }
 
-.booking__layout {
-    width: 100%;
-    height: 79vh;
-    background-image: url(../images/img-6.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    margin-bottom: 70px;
-}
-
-.booking__content {
-    font-size: 30px;
+#taxi h2 {
+    font-weight: 700;
+    color: #fefefe;
     text-align: center;
-    margin-left: 15rem;
-    text-transform: uppercase;
-    display: flex;
-    flex-direction: column;
+    padding: 60px 0 50px 0;
+    font-size: 38px;
 }
 
-.bcontent_1 {
-    padding-top: 80px;
+#taxi h2 p {
+    color: #f4db30;
+    font-size: 38px;
+    font-weight: 700;
 }
 
-.bcontent_2 {
-    color: white;
+.taxi {
+    padding-bottom: 40px;
 }
 
-.booking__phone {
-    width: 19%;
-    height: 100%;
-    background-image: url(../images/img-7.png);
-    background-repeat: no-repeat;
-    background-size: 90% 85%;
-    float: right;
-    margin-top: 70px;
-    margin-right: 80px;
+.taxi__item {
+    background-color: #ffff;
+    color: #2b3436;
+    font-weight: 500;
+    padding: 20px;
+    position: relative;
+    transition: all ease 0.5s;
+    cursor: pointer;
 }
 
-footer.bg-dark.text-center.text-white {
-    padding-bottom: 25px;
+.taxi__item:hover {
+    transform: translateY(15px);
 }
 
-h5.text-capitalize {
-    font-weight: bold;
-    margin-bottom: 25px;
-    font-size: 25px;
-}
-
-.footer__address.col-lg-3 {
-    width: 260px;
-    margin-right: 35px;
-    margin-left: 80px;
-}
-
-.footer__links.col-lg-3 {
-    width: 260px;
-}
-
-.footer__followUs.col-lg-3 {
-    width: 260px;
-}
-
-.footer__email.col-lg-3 {
-    width: 260px;
-}
-
-li {
-    margin-bottom: 5px;
-}
-
-a.footer__follow {
-    color: white;
-    text-decoration: none;
-}
-
-a.footer__link {
-    color: white;
-    text-decoration: none;
-}
-
-img.footer__img {
-    margin-right: 10px;
-}
-
-input#btn-email {
-    width: 200px;
-    padding: 8px;
-}
-
-button.btn.btn-outline-light {
-    margin: 12px 0 4px;
-    padding: 8px 14px;
-    background-color: #ffc61a;
-    border: #ffc61a;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.footer__copyright {
-    color: black;
-    background-color: white;
+.taxi__content {
     text-align: center;
+    width: 68%;
+    margin: 0 auto;
 }
 
-/* Extra small devices (phones, 600px and down) */
-
-@media only screen and (max-width: 600px) {
-    .footer__address.col-lg-3 {
-        width: 100%;
-        margin: 0;
-    }
-    .footer__links.col-lg-3 {
-        width: 130px;
-        text-align: left;
-    }
-    .footer__followUs.col-lg-3 {
-        width: 140px;
-        text-align: left;
-    }
-    .footer__email.col-lg-3 {
-        width: 130px;
-        text-align: left;
-    }
+.taxi__content .content__description {
+    color: #2b3436;
+    font-size: 16px;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-    .booking__layout {
-        height: 35vh;
-        margin-bottom: 40px;
-    }
-    .booking__content {
-        font-size: 22px;
-        text-align: center;
-        margin-left: 11rem;
-        text-transform: uppercase;
-    }
-    .booking__phone {
-        background-size: 80% 75%;
-        margin-top: 55px;
-        margin-right: 35px;
-    }
-    .bcontent_1 {
-        padding-top: 20px;
-    }
-    .footer__address.col-lg-3 {
-        width: 100%;
-        margin: 0;
-    }
-    .footer__links.col-lg-3 {
-        width: 130px;
-        text-align: left;
-    }
-    .footer__followUs.col-lg-3 {
-        width: 140px;
-        text-align: left;
-    }
-    .footer__email.col-lg-3 {
-        width: 130px;
-        text-align: left;
-    }
+.content__number {
+    color: #fefefe;
+    border: 1px solid #f8ca11;
+    background-color: #f8ca11;
+    padding: 13px 15px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    .booking__layout {
-        height: 45vh;
-        margin-bottom: 45px;
-    }
-    .booking__content {
-        font-size: 26px;
-        text-align: center;
-        margin-left: 13rem;
-        text-transform: uppercase;
-    }
-    .booking__phone {
-        background-size: 78% 78%;
-        margin-top: 58px;
-        margin-right: 35px;
-    }
-    .bcontent_1 {
-        padding-top: 40px;
-    }
-    .footer__address.col-lg-3 {
-        width: 100%;
-        margin: 0;
-    }
-    .footer__links.col-lg-3 {
-        width: 165px;
-        text-align: left;
-    }
-    .footer__followUs.col-lg-3 {
-        width: 165px;
-        text-align: left;
-    }
-    .footer__email.col-lg-3 {
-        width: 165px;
-        text-align: left;
-    }
+.taxi__content h5 {
+    padding: 20px;
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .booking__layout {
-        height: 58vh;
-        margin-bottom: 50px;
-    }
-    .booking__content {
-        font-size: 28px;
-        text-align: center;
-        margin-left: 14rem;
-        text-transform: uppercase;
-    }
-    .booking__phone {
-        background-size: 80% 80%;
-        margin-top: 65px;
-        margin-right: 35px;
-    }
-    .bcontent_1 {
-        padding-top: 60px;
-    }
-    .footer__address.col-lg-3 {
-        width: 180px;
-    }
-    .footer__links.col-lg-3 {
-        width: 180px;
-    }
-    .footer__followUs.col-lg-3 {
-        width: 180px;
-    }
-    .footer__email.col-lg-3 {
-        width: 180px;
-    }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-
-@media only screen and (min-width: 1200px) {
-    .footer__address.col-lg-3 {
-        width: 240px;
-    }
-    .footer__links.col-lg-3 {
-        width: 240px;
-    }
-    .footer__followUs.col-lg-3 {
-        width: 240px;
-    }
-    .footer__email.col-lg-3 {
-        width: 240px;
-    }
-}
-
-@media only screen and (min-width: 1400px) {
-    .bcontent_1 {
-        padding-top: 80px;
-    }
-    .footer__address.col-lg-3 {
-        width: 260px;
-        margin-right: 35px;
-        margin-left: 80px;
-    }
-    .footer__links.col-lg-3 {
-        width: 260px;
-    }
-    .footer__followUs.col-lg-3 {
-        width: 260px;
-    }
-    .footer__email.col-lg-3 {
-        width: 260px;
-    }
-}
-
-* {
-    font-size: 62.5%;
-}
+/* ---------------------style booking-------------------------- */
 
 .booking {
 }
@@ -842,238 +525,106 @@ button.btn.btn-outline-light {
     outline: none;
 }
 
-/* media screen */
-
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .booking__title {
-        font-size: 5.5rem;
-        font-weight: 500;
-        width: 41rem;
-    }
+/* --------------------style Footer and booking background--------------------- */
+.booking__layout {
+    width: 100%;
+    height: 79vh;
+    background-image: url(../images/img-6.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 70px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    .booking__item {
-        justify-content: center;
-        margin-bottom: 2rem;
-    }
-    .booking__title {
-        font-size: 4.5rem;
-        font-weight: 500;
-        width: 35rem;
-        margin: 4.5rem auto;
-    }
-    .item__image {
-        width: 40%;
-        height: 21rem;
-    }
-    .item__content {
-        width: 50%;
-        align-self: flex-end;
-    }
-    .content__text {
-        margin: 1.5rem 0;
-        height: 7.2rem;
-    }
-    .content__button {
-        height: 4rem;
-        font-size: 1.6rem;
-        width: 13rem;
-    }
+.booking__content {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 15rem;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-    .booking__title {
-        font-size: 4.5rem;
-        font-weight: 500;
-        width: 68%;
-        margin: 3rem auto;
-        padding: 0 2rem;
-        justify-content: space-evenly;
-    }
-    .booking__item {
-        flex-direction: column;
-        align-content: center;
-        margin-bottom: 3rem;
-    }
-    .item__image {
-        width: 65%;
-        height: 25rem;
-        order: 1;
-    }
-    .item__content {
-        width: 65%;
-        align-self: flex-end;
-        order: 2;
-        margin: 1rem 0 0;
-    }
-    .content__title {
-        text-align: center;
-    }
-    .content__text {
-        margin: 1rem 0;
-        height: 7.2rem;
-    }
-    .content__button {
-        height: 4rem;
-        font-size: 1.6rem;
-        width: 13rem;
-        align-self: center;
-    }
+.bcontent_1 {
+    padding-top: 80px;
 }
 
-/*===========RESET CSS============= */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.bcontent_2 {
+    color: white;
 }
 
-:before,
-:after {
-    box-sizing: border-box;
+.booking__phone {
+    width: 19%;
+    height: 100%;
+    background-image: url(../images/img-7.png);
+    background-repeat: no-repeat;
+    background-size: 90% 85%;
+    float: right;
+    margin-top: 70px;
+    margin-right: 80px;
 }
 
-a,
-span,
-img,
-p,
-:before,
-:after {
-    display: inline-block;
-    font-size: 14px;
+footer.bg-dark.text-center.text-white {
+    padding-bottom: 25px;
 }
 
-body {
-    font-size: 14px;
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.285;
-    font-weight: 400;
+h5.text-capitalize {
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-size: 25px;
 }
 
-:focus {
-    outline: none;
+.footer__address.col-lg-3 {
+    width: 260px;
+    margin-right: 35px;
+    margin-left: 80px;
 }
 
-ul {
-    list-style: none;
+.footer__links.col-lg-3 {
+    width: 260px;
 }
 
-a {
+.footer__followUs.col-lg-3 {
+    width: 260px;
+}
+
+.footer__email.col-lg-3 {
+    width: 260px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a.footer__follow {
+    color: white;
     text-decoration: none;
-    transform: all 0.5s ease;
-    -webkit-transform: all 0.5s ease;
-    -moz-transform: all 0.5s ease;
-    -ms-transform: all 0.5s ease;
-    -o-transform: all 0.5s ease;
 }
 
-/* ============== TAXI ===================  */
-
-#taxi {
-    background-color: #151c1e;
-    color: aliceblue;
+a.footer__link {
+    color: white;
+    text-decoration: none;
 }
 
-#taxi h2 {
-    font-weight: 700;
-    color: #fefefe;
+img.footer__img {
+    margin-right: 10px;
+}
+
+input#btn-email {
+    width: 200px;
+    padding: 8px;
+}
+
+button.btn.btn-outline-light {
+    margin: 12px 0 4px;
+    padding: 8px 14px;
+    background-color: #ffc61a;
+    border: #ffc61a;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer__copyright {
+    color: black;
+    background-color: white;
     text-align: center;
-    padding: 60px 0 50px 0;
-    font-size: 38px;
-}
-
-#taxi h2 p {
-    color: #f4db30;
-    font-size: 38px;
-    font-weight: 700;
-}
-
-.taxi {
-    padding-bottom: 40px;
-}
-
-.taxi__item {
-    background-color: #ffff;
-    color: #2b3436;
-    font-weight: 500;
-    padding: 20px;
-    position: relative;
-    transition: all ease 0.5s;
-    cursor: pointer;
-}
-
-.taxi__item:hover {
-    transform: translateY(15px);
-}
-
-.taxi__content {
-    text-align: center;
-    width: 68%;
-    margin: 0 auto;
-}
-
-.taxi__content .content__description {
-    color: #2b3436;
-    font-size: 16px;
-}
-
-.content__number {
-    color: #fefefe;
-    border: 1px solid #f8ca11;
-    background-color: #f8ca11;
-    padding: 13px 15px;
-    border-radius: 50%;
-    position: absolute;
-    left: 50%;
-    top: 0%;
-    transform: translate(-50%, -50%);
-    font-size: 16px;
-}
-
-.taxi__content h5 {
-    padding: 20px;
-}
-
-/* REPONSIVE */
-
-@media (max-width: 576px) {
-    .container {
-        max-width: 400px;
-    }
-    .taxi__item:nth-child(-n + 1) {
-        margin-top: 50px;
-    }
-    #taxi h2,
-    #taxi h2 p {
-        font-size: 50px;
-    }
-}
-
-@media (min-width: 577px) and (max-width: 720px) {
-    .container {
-        max-width: 580px;
-    }
-    .content__number {
-        padding: 8px 10px;
-    }
-}
-
-@media (min-width: 721px) and (max-width: 768px) {
-    .container {
-        max-width: 620px;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 992px) {
-    .container {
-        max-width: 720px;
-    }
-}
-
-@media (min-width: 993px) and (max-width: 1200px) {
-    .container {
-        max-width: 900px;
-    }
 }
