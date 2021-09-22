@@ -1,5 +1,10 @@
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 
+    /*--- taxi --- */
+     #taxi .container {
+        max-width: 950px;
+    }
+
     /* ----style booking----------------- */
     .booking__title {
         font-size: 2rem;
@@ -21,9 +26,45 @@
         font-size: 1.6rem;
         width: 13rem;
     } */
+    /*------style booking-end and footer--*/
+    .booking__layout {
+        height: 58vh;
+        margin-bottom: 50px;
+    }
+    .booking__content {
+        font-size: 28px;
+        text-align: center;
+        margin-left: 14rem;
+        text-transform: uppercase;
+    }
+    .booking__phone {
+        background-size: 80% 80%;
+        margin-top: 65px;
+        margin-right: 35px;
+    }
+    .bcontent_1 {
+        padding-top: 60px;
+    }
+    .footer__address.col-lg-3 {
+        width: 180px;
+    }
+    .footer__links.col-lg-3 {
+        width: 180px;
+    }
+    .footer__followUs.col-lg-3 {
+        width: 180px;
+    }
+    .footer__email.col-lg-3 {
+        width: 180px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    /*--- taxi --- */
+    #taxi .container {
+        max-width: 620px;
+    }
 
     /* ----style booking----------------- */
     .booking__item {
@@ -56,9 +97,58 @@
         height: 2rem;
         font-size: 0.8rem;
     }
+    /*------style booking-end and footer--*/
+    .booking__layout {
+        height: 45vh;
+        margin-bottom: 45px;
+    }
+    .booking__content {
+        font-size: 26px;
+        text-align: center;
+        margin-left: 13rem;
+        text-transform: uppercase;
+    }
+    .booking__phone {
+        background-size: 78% 78%;
+        margin-top: 58px;
+        margin-right: 35px;
+    }
+    .bcontent_1 {
+        padding-top: 40px;
+    }
+    .footer__address.col-lg-3 {
+        width: 100%;
+        margin: 0;
+    }
+    .footer__links.col-lg-3 {
+        width: 165px;
+        text-align: left;
+    }
+    .footer__followUs.col-lg-3 {
+        width: 165px;
+        text-align: left;
+    }
+    .footer__email.col-lg-3 {
+        width: 165px;
+        text-align: left;
+    }
+    /* abc */
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    /*--- taxi --- */
+    #taxi .container {
+        max-width: 520px;
+    }
+
+    .taxi__content {
+        width: 100%;
+    }
+
+    .content__number  {
+        padding: 12px 15px;
+    }
 
     /* ----style booking----------------- */
     .booking__title {
@@ -104,12 +194,61 @@
     .item__image, .item__content, .content__title, .content__text, .content__button{
         align-self: center;
     }
+    /*------style booking-end and footer--*/
+    .booking__layout {
+        height: 35vh;
+        margin-bottom: 40px;
+    }
+    .booking__content {
+        font-size: 22px;
+        text-align: center;
+        margin-left: 11rem;
+        text-transform: uppercase;
+    }
+    .booking__phone {
+        background-size: 80% 75%;
+        margin-top: 55px;
+        margin-right: 35px;
+    }
+    .bcontent_1 {
+        padding-top: 20px;
+    }
+    .footer__address.col-lg-3 {
+        width: 100%;
+        margin: 0;
+    }
+    .footer__links.col-lg-3 {
+        width: 130px;
+        text-align: left;
+    }
+    .footer__followUs.col-lg-3 {
+        width: 140px;
+        text-align: left;
+    }
+    .footer__email.col-lg-3 {
+        width: 130px;
+        text-align: left;
+    }
 }
 
 @media only screen and (min-width: 340px) and (max-width: 575px){
 
-     /* ----style booking----------------- */
-     .booking__title {
+    /*--- taxi ---*/
+    #taxi .container {
+        max-width: 400px;
+    }
+
+    .taxi__item:nth-child(-n + 1) {
+        margin-top: 50px;
+    }
+
+    #taxi h2,
+    #taxi h2 p {
+        font-size: 50px;
+    }
+
+    /* ----style booking----------------- */
+    .booking__title {
         font-size: 1.4rem;
         width: 16rem;
         padding: 0 1.2rem 0.5rem ;
