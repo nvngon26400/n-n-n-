@@ -1,0 +1,186 @@
+/* ============== TAXI ===================  */
+#taxi {
+    background-color: #151c1e;
+    color: aliceblue;
+    margin: 4rem 0;
+}
+
+#taxi h2 {
+    font-weight: 700;
+    color: #fefefe;
+    text-align: center;
+    padding: 4rem 0 3rem 0;
+    font-size: 3rem;
+}
+
+#taxi h2 p {
+    color: #f4db30;
+    font-size: 3rem;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.taxi {
+    padding-bottom: 2.5rem;
+}
+
+.taxi__item {
+    background-color: #ffff;
+    color: #2b3436;
+    font-weight: 500;
+    padding: 1.5rem;
+    position: relative;
+    transition: all ease 0.5s;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.taxi__item:hover {
+    transition: all ease 0.3s;
+    transform: translateY(1rem);
+}
+
+.taxi__content {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.taxi__content .content__description {
+    color: #2b3436;
+    font-size: 1.25rem;
+}
+
+.content__number {
+    color: #fefefe;
+    border: 1px solid #f8ca11;
+    background-color: #f8ca11;
+    padding: 1rem 1.3rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, -50%);
+    font-size: 1rem;
+}
+
+.taxi__content h5 {
+    padding: 2rem 0;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    /*--- taxi --- */
+    #taxi .container {
+        max-width: 80%;
+    }
+
+    .taxi__content {
+        width: 90%;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    /*--- taxi --- */
+    #taxi .container {
+        max-width: 80%;
+    }
+
+    .taxi__content {
+        width: 100%;
+    }
+
+    .content__number {
+        padding: 0.8rem 1rem;
+    }
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    /*--- taxi --- */
+    #taxi .container {
+        max-width: 80%;
+    }
+
+    .taxi__content {
+        width: 100%;
+    }
+
+    .content__number {
+        padding: 0.6rem 0.8rem;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 575px){
+    /*--- taxi ---*/
+    #taxi .container {
+        max-width: 80%;
+    }
+
+    #taxi h2 {
+        padding-top: 2rem;
+        padding-bottom: 0;
+    }
+
+    .taxi__item:nth-child(-n + 1) {
+        margin-top: 4rem;
+    }
+
+    .taxi__item:hover {
+        transform: none;
+    }
+
+    #taxi h2,
+    #taxi h2 p {
+        font-size: 3rem;
+        font-weight: 400;
+    }
+
+    .taxi__item img {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        transition: all ease 0.5s;
+    }
+
+    .taxi__item img:hover {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    /*--- taxi ---*/
+    #taxi .container {
+        max-width: 80%;
+    }
+
+    #taxi h2 {
+        padding-top: 2rem;
+        padding-bottom: 0;
+    }
+
+    .taxi__item:nth-child(-n + 1) {
+        margin-top: 4rem;
+    }
+
+    .taxi__item:hover {
+        transform: none;
+    }
+
+    #taxi h2,
+    #taxi h2 p {
+        font-size: 3rem;
+        font-weight: 400;
+    }
+
+    .taxi__item img {
+        transition: all ease 0.5s;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    .taxi__item img:hover {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
