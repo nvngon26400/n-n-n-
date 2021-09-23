@@ -1,3 +1,8 @@
+@media only screen and (min-width: 1400px){
+    .booking__title{
+        width: 36%;
+    }
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 
     /*--- taxi --- */
@@ -8,7 +13,7 @@
     /* ----style booking----------------- */
     .booking__title {
         font-size: 2rem;
-        width: 25rem;
+        width: 42%;
     }
 
     .item__image {
@@ -73,9 +78,7 @@
     }
     .booking__title {
         font-size: 1.8rem;
-        width: 22rem;
-        padding: 0 2.2rem 0.5rem;
-        margin-bottom: 3rem;
+        width: 51%;
     }
     .item__image {
         width: 30%;
@@ -89,7 +92,7 @@
         font-size: 1.3rem;
     }
     .content__text {
-        font-size: 0.8rem;
+        font-size: 1rem;
         height: 4.3rem;
     }
     .content__button {
@@ -152,33 +155,31 @@
 
     /* ----style booking----------------- */
     .booking__title {
-        font-size: 1.4rem;
-        width: 16rem;
-        padding: 0 1.2rem 0.5rem ;
-        margin-bottom: 2rem;
+        font-size: 1.8rem;
+        width: 70%;
     }
     .booking__item {
         flex-direction: column;
         margin-bottom: 3rem;
     }
     .item__image {
-        width: 50%;
-        height: 13rem;
+        width: 70%;
+        height: 18rem;
         order: 1;
     }
     .item__content {
-        width: 65%;
+        width: 85%;
         order: 2;
         margin: 1rem 0 0;
     }
     .content__title {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
     .content__text {
-        font-size: 0.8rem;
-        width: 75%;
+        font-size: 1rem;
+        width: 80%;
         margin: 1rem 0;
-        height: 5rem;
+        height: 4.5rem;
     }
 
     .content__text--right{
@@ -186,9 +187,9 @@
     }
 
     .content__button {
-        width: 6.5rem;
-        height: 2rem;
-        font-size: 0.8rem;
+        width: 7.5rem;
+        height: 2.5rem;
+        font-size: 1rem;
     }
 
     .item__image, .item__content, .content__title, .content__text, .content__button{
@@ -231,7 +232,7 @@
     }
 }
 
-@media only screen and (min-width: 340px) and (max-width: 575px){
+@media only screen and (min-width: 480px) and (max-width: 575px){
 
     /*--- taxi ---*/
     #taxi .container {
@@ -249,33 +250,31 @@
 
     /* ----style booking----------------- */
     .booking__title {
-        font-size: 1.4rem;
-        width: 16rem;
-        padding: 0 1.2rem 0.5rem ;
-        margin-bottom: 2rem;
+        font-size: 1.8rem;
+        width: 70%;
     }
     .booking__item {
         flex-direction: column;
         margin-bottom: 3rem;
     }
     .item__image {
-        width: 50%;
-        height: 13rem;
+        width: 70%;
+        height: 18rem;
         order: 1;
     }
     .item__content {
-        width: 65%;
+        width: 85%;
         order: 2;
         margin: 1rem 0 0;
     }
     .content__title {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
     .content__text {
-        font-size: 0.8rem;
-        width: 75%;
+        font-size: 1rem;
+        width: 80%;
         margin: 1rem 0;
-        height: 5rem;
+        height: 4.5rem;
     }
 
     .content__text--right{
@@ -283,15 +282,16 @@
     }
 
     .content__button {
-        width: 6.5rem;
-        height: 2rem;
-        font-size: 0.8rem;
+        width: 7.5rem;
+        height: 2.5rem;
+        font-size: 1rem;
     }
 
     .item__image, .item__content, .content__title, .content__text, .content__button{
         align-self: center;
     }
 
+    /* --------------------style booking background------------------ */
     .booking__phone {
         background-size: 70% 50%;
     }
@@ -302,5 +302,51 @@
 
     .footer__address.col-lg-3 {
         width: 100%;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+    /* --------------style booking-------------------- */
+    .booking__title {
+        font-size: 1.5rem;
+        width: 80%;
+    }
+    .booking__item {
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+    .item__image {
+        width: 80%;
+        height: 14rem;
+        order: 1;
+    }
+    .item__content {
+        width: 85%;
+        order: 2;
+        margin: 1rem 0 0;
+    }
+    .content__title {
+        font-size: 1.3rem;
+    }
+    .content__text {
+        font-size: 1.1rem;
+        width: 90%;
+        margin: 1rem 0;
+        height: 5rem;
+    }
+
+    .content__text--right{
+        text-align: start;
+    }
+
+    .content__button {
+        width: 7.5rem;
+        height: 2.5rem;
+        font-size: 1rem;
+    }
+
+    .item__image, .item__content, .content__title, .content__text, .content__button{
+        align-self: center;
     }
 }
