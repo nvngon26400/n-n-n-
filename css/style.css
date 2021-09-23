@@ -332,6 +332,14 @@ button {
     color: #fff;
 }
 
+.carousel-control-prev{
+    text-decoration: none;
+}
+
+.carousel-control-next{
+    text-decoration: none;
+}
+
 .img-container {
     margin: 0 auto;
     height: auto;
