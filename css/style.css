@@ -1,5 +1,5 @@
 /*-------------------------------- style header------------------------------- */
-.send_button a {
+.send__button a {
     text-decoration: none;
 }
 
@@ -28,17 +28,17 @@
     text-align: center;
 }
 
-.list_menu {
+.list__menu {
     float: right;
     width: auto;
 }
 
-.list_menu ul {
+.list__menu ul {
     margin: 0px;
     padding: 0px;
 }
 
-.list_menu li {
+.list__menu li {
     float: left;
     padding-right: 75px;
     font-size: 18px;
@@ -46,30 +46,30 @@
     padding-top: 12px;
 }
 
-.list_menu li a {
+.list__menu li a {
     color: #ffffff;
     text-decoration: none;
 }
 
-.list_menu li a:hover {
+.list__menu li a:hover {
     text-decoration: none;
     color: #ffffff;
     transition: 0.4s all;
 }
 
-.list_menu ul li input {
+.list__menu ul li input {
     padding: 5px 10px;
     margin-right: 5px;
     border-radius: 20px;
     transition: 0.6s all;
 }
 
-.list_menu ul li input:focus {
+.list__menu ul li input:focus {
     border: 3px solid rgb(233, 233, 29);
     transition: 0.6s all;
 }
 
-.list_menu ul li .search {
+.list__menu ul li .search {
     background-color: gray;
     padding: 9px 14px;
     color: white;
@@ -77,7 +77,7 @@
     transition: 0.5s all;
 }
 
-.list_menu ul li .search:hover {
+.list__menu ul li .search:hover {
     background-color: black;
     color: white;
     padding: 9px 14px;
@@ -85,7 +85,7 @@
     transition: 0.5s all;
 }
 
-.list_menu li a:hover {
+.list__menu li a:hover {
     color: #f8ca11;
 }
 
@@ -134,15 +134,15 @@
     padding-top: 90px;
 }
 
-.book_now {
+.book__now {
     width: 70%;
     float: right;
-    background-color: #f8ca11;
+    background-color: #ffd83d;
     height: auto;
     padding: 10px;
 }
 
-.book_text {
+.book__text {
     width: 100%;
     float: left;
     font-size: 40px;
@@ -150,7 +150,7 @@
     text-align: center;
 }
 
-.call_text {
+.call__text {
     width: 100%;
     float: left;
     font-size: 40px;
@@ -158,13 +158,13 @@
     text-align: center;
 }
 
-.image_1 {
+.image__1 {
     width: 80%;
     float: right;
     margin-top: 50px;
 }
 
-.booking_text {
+.booking__text {
     width: 100%;
     float: left;
     font-size: 26px;
@@ -172,7 +172,7 @@
     text-align: center;
 }
 
-.contact_bg {
+.contact__bg {
     width: 100%;
     float: left;
     padding-top: 0;
@@ -181,7 +181,7 @@
     margin-top: 20px;
 }
 
-.text_form {
+.text__form {
     width: 100%;
     float: left;
     font-size: 30px;
@@ -191,7 +191,7 @@
     text-align: center;
 }
 
-.email-bt {
+.email--bt {
     background: #e1e1e1;
     border-bottom: 1px solid #fffcf4;
     border-top: 0px;
@@ -208,7 +208,7 @@
     display: block;
 }
 
-.send_button a {
+.send__button a {
     width: 25%;
     float: right;
     background-color: #353433;
@@ -220,11 +220,11 @@
     margin-right: 30px;
 }
 
-.send_button a {
+.send__button a {
     color: #fefefe;
 }
 
-.send_button a:hover {
+.send__button a:hover {
     color: white;
     background: #f8ca11;
 }
