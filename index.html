@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
@@ -35,7 +35,7 @@
 
     <body>
         <!-- HEADER -->
-        <div class="header_container">
+        <div class="header__container">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-lg-3">
@@ -52,7 +52,7 @@
                                 <li><button class="search"><i
                                             class="fas fa-search"></i></button></li>
                                 <div id="myNav" class="overlay">
-                                    <div class="overlay-content">
+                                    <div class="overlay--content">
                                         <a href="index.html">Home</a>
                                         <a href="#taxis">Taxi</a>
                                         <a href="#about">About</a>
@@ -68,10 +68,9 @@
             </div>
         </div>
         <div class = "clear"></div>
-        
-        <div class="phone_book">
+        <div class="phone__book">
             <div class="container-fluid">
-                <div id="main_slider" class="carousel slide" data-ride="carousel">
+                <div id="main__slider" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="row">
@@ -242,17 +241,17 @@
         </section>
 
         <!-- BOOKING -->
-        <section id="booking">
+        <section id="booking" class="booking-end">
             <div class="booking__layout">
-                <div class="booking__phone"></div>
-                <p class="booking__content bcontent_1">download</p>
+                <div class="booking__phone" ></div>
+                <a href="#!" class="booking__content bcontent_1">download</a>
                 <p class="booking__content bcontent_2">our app today</p>
             </div>
         </section>
         <!-- CONTACT US -->
         <footer id="contact" class="bg-dark text-center text-white text-lg-start">
             <div class="container p-5">
-                <section class="">
+                
                     <div class="row">
                         <div class="footer__address col-lg-3">
                             <h5 class="text-capitalize">Address</h5>
@@ -268,23 +267,23 @@
                             <ul class="list-unstyled">
                                 <li>
                                     <img class="footer__img" src="./images/bulit-icon.png" alt="img-links" />
-                                    <a href="#!" class="footer__link">Home</a>
+                                    <a href="#" class="footer__link">Home</a>
                                 </li>
                                 <li>
                                     <img class="footer__img" src="./images/bulit-icon.png" alt="img-links" />
-                                    <a href="#!" class="footer__link">About</a>
+                                    <a href="#about" class="footer__link">About</a>
                                 </li>
                                 <li>
                                     <img class="footer__img" src="./images/bulit-icon.png" alt="img-links" />
-                                    <a href="#!" class="footer__link">Taxi</a>
+                                    <a href="#taxi" class="footer__link">Taxi</a>
                                 </li>
                                 <li>
                                     <img class="footer__img" src="./images/bulit-icon.png" alt="img-links" />
-                                    <a href="#!" class="footer__link">Booking</a>
+                                    <a href="#booking" class="footer__link">Booking</a>
                                 </li>
                                 <li>
                                     <img class="footer__img" src="./images/bulit-icon.png" alt="img-links" />
-                                    <a href="#!" class="footer__link">Contact Us</a>
+                                    <a href="#contact" class="footer__link">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -319,7 +318,7 @@
                         <div class="footer__email col-lg-3">
                             <h5 class="text-capitalize">Newsletter</h5>
 
-                            <form action="">
+                            <form class="footer_submit-email">
                                 <input
                                     type="email"
                                     id="footer__btn-email"
@@ -330,7 +329,7 @@
                             </form>
                         </div>
                     </div>
-                </section>
+                
             </div>
 
             <!-- Copyright -->

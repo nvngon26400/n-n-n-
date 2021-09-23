@@ -1,65 +1,9 @@
 /*-------------------------------- style header------------------------------- */
-
-.paddind_bottom_0 {
-    padding-bottom: 0 !important;
-}
-
-.btn-custom {
-    margin-top: 20px;
-    background-color: transparent !important;
-    border: 2px solid #ddd;
-    padding: 12px 40px;
-    font-size: 16px;
-}
-
-.lead {
-    font-size: 18px;
-    line-height: 30px;
-    color: #767676;
-    margin: 0;
-    padding: 0;
-}
-
-.form-control:focus {
-    border-color: #ffffff !important;
-    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
-}
-
-.navbar-form input {
-    border: none !important;
-}
-
-.badge {
-    font-weight: 500;
-}
-
-blockquote {
-    margin: 20px 0 20px;
-    padding: 30px;
-}
-
-button {
-    border: 0;
-    margin: 0;
-    padding: 0;
-    cursor: pointer;
-}
-
 .send_button a {
     text-decoration: none;
 }
 
-.full {
-    float: left;
-    width: 100%;
-}
-
-.layout_padding {
-    padding-top: 90px;
-    padding-bottom: 0px;
-}
-
-.header_container {
+.header__container {
     width: 100%;
     float: left;
     background-color: #1a1a1a;
@@ -170,7 +114,7 @@ button {
     transition: 0.3s;
 }
 
-.overlay-content {
+.overlay--content {
     position: relative;
     top: 25%;
     width: 100%;
@@ -178,7 +122,7 @@ button {
     margin-top: 30px;
 }
 
-.phone_book {
+.phone__book {
     width: 100%;
     float: left;
     background-color: #1a1a1a;
@@ -281,15 +225,15 @@ button {
     background: #f8ca11;
 }
 
-#main_slider a.carousel-control-prev {
+#main__slider a.carousel-control-prev {
     position: absolute;
     left: 50px;
     top: 40%;
     background-color: #f8ca12;
 }
 
-#main_slider .carousel-control-prev,
-#main_slider .carousel-control-next {
+#main__slider .carousel-control-prev,
+#main__slider .carousel-control-next {
     width: 65px;
     height: 65px;
     background: #fff;
@@ -299,14 +243,14 @@ button {
     border-radius: 100%;
 }
 
-#main_slider a.carousel-control-next {
+#main__slider a.carousel-control-next {
     position: absolute;
     left: 50px;
     top: 55%;
 }
 
-#main_slider .carousel-control-prev,
-#main_slider .carousel-control-next {
+#main__slider .carousel-control-prev,
+#main__slider .carousel-control-next {
     width: 65px;
     height: 65px;
     background: #fff;
@@ -316,20 +260,28 @@ button {
     border-radius: 100%;
 }
 
-#main_slider .carousel-control-prev:hover,
-#main_slider .carousel-control-next:hover,
-#main_slider .carousel-control-prev:focus,
-#main_slider .carousel-control-next:focus {
+#main__slider .carousel-control-prev:hover,
+#main__slider .carousel-control-next:hover,
+#main__slider .carousel-control-prev:focus,
+#main__slider .carousel-control-next:focus {
     background: #f8ca12;
     color: #fff;
 }
 
-#main_slider .carousel-control-prev:hover,
-#main_slider .carousel-control-next:hover,
-#main_slider .carousel-control-prev:focus,
-#main_slider .carousel-control-next:focus {
+#main__slider .carousel-control-prev:hover,
+#main__slider .carousel-control-next:hover,
+#main__slider .carousel-control-prev:focus,
+#main__slider .carousel-control-next:focus {
     background: #f8ca12;
     color: #fff;
+}
+
+.carousel-control-prev{
+    text-decoration: none;
+}
+
+.carousel-control-next{
+    text-decoration: none;
 }
 
 .img-container {
@@ -357,6 +309,7 @@ button {
     transform: scale(1.2);
 }
 
+
 /* ============== TAXI ===================  */
 
 #taxi {
@@ -369,7 +322,7 @@ button {
     font-weight: 700;
     color: #fefefe;
     text-align: center;
-    padding: 60px 0 50px 0;
+    padding: 4rem 0 3rem 0;
     font-size: 3rem;
 }
 
@@ -381,49 +334,50 @@ button {
 }
 
 .taxi {
-    padding-bottom: 40px;
+    padding-bottom: 2.5rem;
 }
 
 .taxi__item {
     background-color: #ffff;
     color: #2b3436;
     font-weight: 500;
-    padding: 20px;
+    padding: 1.5rem;
     position: relative;
     transition: all ease 0.5s;
     cursor: pointer;
+    border-radius: 0.5rem;
 }
 
 .taxi__item:hover {
-    transform: translateY(15px);
+    transform: translateY(1rem);
 }
 
 .taxi__content {
     text-align: center;
-    width: 68%;
+    width: 70%;
     margin: 0 auto;
 }
 
 .taxi__content .content__description {
     color: #2b3436;
-    font-size: 16px;
+    font-size: 1.25rem;
 }
 
 .content__number {
     color: #fefefe;
     border: 1px solid #f8ca11;
     background-color: #f8ca11;
-    padding: 15px 18px;
+    padding: 1rem 1.3rem;
     border-radius: 50%;
     position: absolute;
     left: 50%;
     top: 0%;
     transform: translate(-50%, -50%);
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .taxi__content h5 {
-    padding: 30px;
+    padding: 2rem 0;
 }
 
 
@@ -567,6 +521,7 @@ button {
 
 .booking__content {
     font-size: 30px;
+    font-weight: 500;
     text-align: center;
     margin-left: 15rem;
     text-transform: uppercase;
@@ -576,6 +531,8 @@ button {
 
 .bcontent_1 {
     padding-top: 80px;
+    text-decoration: none;
+    color: black;
 }
 
 .bcontent_2 {
@@ -601,6 +558,7 @@ h5.text-capitalize {
 
 .footer__address.col-lg-3 {
     width: 260px;
+    margin-right: 10px;
 }
 
 .footer__links.col-lg-3 {
@@ -652,4 +610,17 @@ button.btn.btn-outline-light {
     background-color: white;
     text-align: center;
     font-size: 1rem;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+    justify-content: center;
+}
+a.booking__content.bcontent_1:hover {
+    text-decoration: none;
 }
