@@ -1,16 +1,4 @@
 /*-------------------------------- style header------------------------------- */
-.form-control:focus {
-    border-color: #ffffff !important;
-    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
-}
-
-button {
-    border: 0;
-    margin: 0;
-    padding: 0;
-    cursor: pointer;
-}
-
 .send_button a {
     text-decoration: none;
 }
