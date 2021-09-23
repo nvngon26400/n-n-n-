@@ -90,19 +90,19 @@
     }
 
     .footer__address.col-lg-3 {
-        width: 180px;
+        width: 100%;
     }
 
     .footer__links.col-lg-3 {
-        width: 180px;
+        width: 30%;
     }
 
     .footer__followUs.col-lg-3 {
-        width: 180px;
+        width: 30%;
     }
 
     .footer__email.col-lg-3 {
-        width: 180px;
+        width: 40%;
     }
 }
 
@@ -219,17 +219,17 @@
     }
 
     .footer__links.col-lg-3 {
-        width: 165px;
+        width: 30%;
         text-align: left;
     }
 
     .footer__followUs.col-lg-3 {
-        width: 165px;
+        width: 30%;
         text-align: left;
     }
 
     .footer__email.col-lg-3 {
-        width: 165px;
+        width: 40%;
         text-align: left;
     }
 }
@@ -373,17 +373,17 @@
     }
 
     .footer__links.col-lg-3 {
-        width: 130px;
+        width: 50%;
         text-align: left;
     }
 
     .footer__followUs.col-lg-3 {
-        width: 140px;
+        width: 50%;
         text-align: left;
     }
 
     .footer__email.col-lg-3 {
-        width: 130px;
+        width: 100%;
         text-align: left;
     }
 }
@@ -442,8 +442,7 @@
 
     #taxi h2,
     #taxi h2 p {
-        font-size: 3rem;
-        font-weight: 400;
+        font-size: 2.5rem;
     }
 
     .taxi__item img {
@@ -535,7 +534,11 @@
     }
 
     .footer__links.col-lg-3,
-    .footer__followUs.col-lg-3,
+    .footer__followUs.col-lg-3 {
+        width: 50%;
+        text-align: left;
+    }
+
     .footer__email.col-lg-3,
     .footer__address.col-lg-3 {
         width: 100%;
@@ -550,7 +553,7 @@
     }
 
     #taxi h2 {
-        padding-top: 2rem;
+        padding-top: 2.5rem;
         padding-bottom: 0;
     }
 
@@ -564,8 +567,7 @@
 
     #taxi h2,
     #taxi h2 p {
-        font-size: 3rem;
-        font-weight: 400;
+        font-size: 2rem;
     }
 
     .taxi__item img {
