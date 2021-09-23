@@ -1,0 +1,180 @@
+/* --------------------style Footer--------------------- */
+.booking__phone {
+    width: 19%;
+    height: 100%;
+    background-image: url(../images/img-7.png);
+    background-repeat: no-repeat;
+    background-size: 90% 85%;
+    float: right;
+    margin-top: 70px;
+    margin-right: 80px;
+}
+
+h5.text-capitalize {
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+
+.footer__address.col-lg-3 {
+    width: 260px;
+    margin-right: 10px;
+}
+
+.footer__links.col-lg-3 {
+    width: 260px;
+}
+
+.footer__followUs.col-lg-3 {
+    width: 260px;
+}
+
+.footer__email.col-lg-3 {
+    width: 260px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a.footer__follow {
+    color: white;
+    text-decoration: none;
+}
+
+a.footer__link {
+    color: white;
+    text-decoration: none;
+}
+
+img.footer__img {
+    margin-right: 10px;
+}
+
+input#btn-email {
+    width: 200px;
+    padding: 8px;
+}
+
+button.btn.btn-outline-light {
+    margin: 12px 0 4px;
+    padding: 8px 14px;
+    background-color: #ffc61a;
+    border: #ffc61a;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer__copyright {
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-size: 1rem;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+    justify-content: center;
+}
+a.booking__content.bcontent_1:hover {
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+    /*------style booking-end and footer--*/
+    .footer__address.col-lg-3 {
+        width: 180px;
+    }
+
+    .footer__links.col-lg-3 {
+        width: 180px;
+    }
+
+    .footer__followUs.col-lg-3 {
+        width: 180px;
+    }
+
+    .footer__email.col-lg-3 {
+        width: 180px;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    /*------style booking-end and footer--*/
+    .footer__address.col-lg-3 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .footer__links.col-lg-3 {
+        width: 165px;
+        text-align: left;
+    }
+
+    .footer__followUs.col-lg-3 {
+        width: 165px;
+        text-align: left;
+    }
+
+    .footer__email.col-lg-3 {
+        width: 165px;
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    
+    /*------style booking-end and footer--*/
+    .footer__address.col-lg-3 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .footer__links.col-lg-3 {
+        width: 130px;
+        text-align: left;
+    }
+
+    .footer__followUs.col-lg-3 {
+        width: 140px;
+        text-align: left;
+    }
+
+    .footer__email.col-lg-3 {
+        width: 130px;
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 575px){
+    
+    /*------style booking-end and footer--*/
+    .footer__links.col-lg-3,
+    .footer__followUs.col-lg-3,
+    .footer__email.col-lg-3,
+    .footer__address.col-lg-3 {
+        width: 100%;
+        text-align: left;
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+    /*------style booking-end and footer--*/
+    .footer__links.col-lg-3,
+    .footer__followUs.col-lg-3,
+    .footer__email.col-lg-3,
+    .footer__address.col-lg-3 {
+        width: 100%;
+        text-align: left;
+    }
+
+}

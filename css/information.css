@@ -1,0 +1,153 @@
+.booking__layout {
+    height: 38rem;
+    background-image: url(../images/img-6.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 4rem;
+}
+
+.booking__content {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 15rem;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
+
+.bcontent_1 {
+    padding-top: 80px;
+    text-decoration: none;
+    color: black;
+}
+
+.bcontent_2 {
+    color: white;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .booking__layout {
+        height: 30rem;
+        /* margin-bottom: 4rem; */
+    }
+
+    .booking__content {
+        font-size: 28px;
+        text-align: center;
+        margin-left: 14rem;
+        text-transform: uppercase;
+    }
+
+    .booking__phone {
+        background-size: 80% 80%;
+        margin-top: 65px;
+        margin-right: 35px;
+    }
+
+    .bcontent_1 {
+        padding-top: 60px;
+    }
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .booking__layout {
+        height: 19.3rem;
+        /* margin-bottom: 45px; */
+    }
+
+    .booking__content {
+        font-size: 26px;
+        text-align: center;
+        margin-left: 13rem;
+        text-transform: uppercase;
+    }
+
+    .booking__phone {
+        background-size: 78% 78%;
+        margin-top: 58px;
+        margin-right: 35px;
+    }
+
+    .bcontent_1 {
+        padding-top: 40px;
+    }
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    .booking__layout {
+        height: 19rem;
+        /* margin-bottom: 40px; */
+    }
+
+    .booking__content {
+        font-size: 22px;
+        text-align: center;
+        margin-left: 11rem;
+        text-transform: uppercase;
+    }
+
+    .booking__phone {
+        background-size: 80% 75%;
+        margin-top: 55px;
+        margin-right: 35px;
+    }
+
+    .bcontent_1 {
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 575px){
+    .booking__phone {
+        background-size: 80% 80%;
+        margin-top: 2rem;
+        margin-right: 1.5rem;
+    }
+
+    .booking__layout {
+        height: 12rem;
+        margin-bottom: 3rem;
+    }
+
+    .footer__address.col-lg-3 {
+        width: 100%;
+    }
+    .booking__content {
+        font-size: 0.7rem;
+        margin-left: 6rem;
+    }
+    .bcontent_1 {
+        padding-top: 1.5rem;
+    }
+    p.booking__content {
+        margin-bottom: 0.3rem;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .booking__phone {
+        background-size: 80% 80%;
+        margin-top: 1.5rem;
+        margin-right: 1rem;
+    }
+
+    .booking__layout {
+        height: 8rem;
+        margin-bottom: 2rem;
+    }
+
+    .booking__content {
+        font-size: 0.6rem;
+        margin-left: 4rem;
+    }
+    .bcontent_1 {
+        padding-top: 0.8rem;
+    }
+
+    p.booking__content {
+        margin-bottom: 0.2rem;
+    }
+}
