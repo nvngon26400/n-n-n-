@@ -349,6 +349,7 @@
 }
 
 .taxi__item:hover {
+    transition: all ease 0.3s;
     transform: translateY(1rem);
 }
 
