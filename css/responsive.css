@@ -448,6 +448,7 @@
     .taxi__item img {
         -webkit-transform: scale(1);
         transform: scale(1);
+        transition: all ease 0.5s;
     }
 
     .taxi__item img:hover {
@@ -569,6 +570,7 @@
     }
 
     .taxi__item img {
+        transition: all ease 0.5s;
         -webkit-transform: scale(1);
         transform: scale(1);
     }
