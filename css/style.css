@@ -584,6 +584,7 @@ h5.text-capitalize {
 
 .footer__address.col-lg-3 {
     width: 260px;
+    margin-right: 10px;
 }
 
 .footer__links.col-lg-3 {
@@ -635,4 +636,14 @@ button.btn.btn-outline-light {
     background-color: white;
     text-align: center;
     font-size: 1rem;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+    justify-content: center;
 }
