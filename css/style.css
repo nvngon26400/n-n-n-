@@ -309,6 +309,7 @@
     transform: scale(1.2);
 }
 
+
 /* ============== TAXI ===================  */
 
 #taxi {
@@ -321,7 +322,7 @@
     font-weight: 700;
     color: #fefefe;
     text-align: center;
-    padding: 60px 0 50px 0;
+    padding: 4rem 0 3rem 0;
     font-size: 3rem;
 }
 
@@ -333,49 +334,50 @@
 }
 
 .taxi {
-    padding-bottom: 40px;
+    padding-bottom: 2.5rem;
 }
 
 .taxi__item {
     background-color: #ffff;
     color: #2b3436;
     font-weight: 500;
-    padding: 20px;
+    padding: 1.5rem;
     position: relative;
     transition: all ease 0.5s;
     cursor: pointer;
+    border-radius: 0.5rem;
 }
 
 .taxi__item:hover {
-    transform: translateY(15px);
+    transform: translateY(1rem);
 }
 
 .taxi__content {
     text-align: center;
-    width: 68%;
+    width: 70%;
     margin: 0 auto;
 }
 
 .taxi__content .content__description {
     color: #2b3436;
-    font-size: 16px;
+    font-size: 1.25rem;
 }
 
 .content__number {
     color: #fefefe;
     border: 1px solid #f8ca11;
     background-color: #f8ca11;
-    padding: 15px 18px;
+    padding: 1rem 1.3rem;
     border-radius: 50%;
     position: absolute;
     left: 50%;
     top: 0%;
     transform: translate(-50%, -50%);
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .taxi__content h5 {
-    padding: 30px;
+    padding: 2rem 0;
 }
 
 
