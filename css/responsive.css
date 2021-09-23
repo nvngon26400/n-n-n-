@@ -378,7 +378,7 @@
     }
 }
 
-@media only screen and (min-width: 340px) and (max-width: 575px) {
+@media only screen and (min-width: 480px) and (max-width: 575px) {
 
     /*--- header ---*/
     #main_slider a.carousel-control-prev {
@@ -481,16 +481,67 @@
     .content__button {
         align-self: center;
     }
-
+    /*------style booking-end and footer--*/
     .booking__phone {
-        background-size: 70% 50%;
+        background-size: 80% 80%;
+        margin-top: 2rem;
+        margin-right: 1.5rem;
     }
 
     .booking__layout {
-        height: 17rem;
+        height: 12rem;
+        margin-bottom: 3rem;
     }
 
     .footer__address.col-lg-3 {
         width: 100%;
+    }
+    .booking__content{
+        font-size: 0.7rem;
+        margin-left: 6rem;
+    }
+    .bcontent_1 {
+        padding-top: 1.5rem;
+    }
+    p.booking__content {
+        margin-bottom: 0.3rem;
+    }   
+
+    .footer__links.col-lg-3 ,.footer__followUs.col-lg-3,.footer__email.col-lg-3,.footer__address.col-lg-3{
+        width: 100%;
+        text-align: left;
+    }
+    
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+
+    /*------style booking-end and footer--*/
+    .booking__phone {
+        background-size: 80% 80%;
+        margin-top: 1.5rem;
+        margin-right: 1rem;
+    }
+
+    .booking__layout {
+        height: 8rem;
+        margin-bottom: 2rem;
+    }
+
+    .booking__content{
+        font-size: 0.6rem;
+        margin-left: 4rem;
+    }
+    .bcontent_1 {
+        padding-top: 0.8rem;
+    }
+    
+    p.booking__content {
+        margin-bottom: 0.2rem;
+    }   
+    .footer__links.col-lg-3 ,.footer__followUs.col-lg-3,.footer__email.col-lg-3,.footer__address.col-lg-3{
+        width: 100%;
+        text-align: left;
     }
 }
