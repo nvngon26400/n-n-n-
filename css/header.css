@@ -67,7 +67,6 @@
     transform: translate(2rem, 13rem);
 }
 .header__contact {
-    width: 50%;
     padding-left: 2rem;
 }
 
@@ -84,6 +83,7 @@
 
 .header__form {
     background-color: #fefefe;
+    width: 98%;
 }
 
 .header__form input{
