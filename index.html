@@ -15,7 +15,7 @@
         ></script>
 
         <!-- RESET CSS -->
-        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/reset.css" />
 
         <!--STYLE CSS -->
         <link rel="stylesheet" href="./css/style.css" />
@@ -32,90 +32,91 @@
 
     <body>
         <!-- HEADER -->
-        <div class="header__container">
+        <header id="header">
             <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 col-lg-3">
-                        <div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
-                    </div>
-                    <div class="col-sm-6 col-lg-9">
-                        <div class="list__menu">
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="#taxi">Taxi</a></li>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#booking">Booking</a></li>
-                                <li><a href="#contact">Contact Us</a></li>
-                                <li><button class="search"><i
-                                            class="fas fa-search"></i></button></li>
-                                <div id="myNav" class="overlay">
-                                    <div class="overlay--content">
-                                        <a href="index.html">Home</a>
-                                        <a href="#taxis">Taxi</a>
-                                        <a href="#about">About</a>
-                                        <a href="#booking">Booking</a>
-                                        <a href="#contact">Contact Us</a>
-                                    </div>
-                                </div>
-                        </div>
-                        </li>
+                <nav class="navbar navbar-expand-md">
+                    <a class="navbar-brand" href="#">
+                        <img src="./images/logo.png" alt="logo" />
+                    </a>
+
+                    <button
+                        class="navbar-toggler header__navbar"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#header__navbar"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon">
+                            <i class="fa fa-bars"></i>
+                        </span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="header__navbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Taxi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Booking</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
                         </ul>
                     </div>
-                </div>
+
+                    <i class="fa fa-search navbar__search"></i>
+                </nav>
             </div>
-        </div>
-        <div class = "clear"></div>
-        <div class="phone__book">
-            <div class="container-fluid">
-                <div id="main__slider" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="book__now">
-                                        <h1 class="book__text">BOOK NOW</h1>
-                                        <h1 class="call__text">(+71) 1234567890</h1>
-                                    </div>
-                                    <div class="image__1 img-container"><img src="images/img-1.png"></div>
-                                </div>
-                                <div class="col-md-6">
-                                    <h1 class="booking__text">Book a City Taxi to your destination in town</h1>
-                                    <div class="contact__bg">
-                                        <div class="input__main">
-                                            <div class="container">
-                                                <h2 class="text__form">Your everyday travel partner</h2>
-                                                <form action="">
-                                                    <div class="form-group">
-                                                        <input type="text" class="email--bt" placeholder="PICKUP"
-                                                            name="Name">
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="email--bt" placeholder="DROP" name="Email">
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <input type="text" class="email--bt" placeholder="WHEN" name="Email">
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </div>
-                                        <div class="send__button"><a href="#">SEARCH</a></div>
-                                    </div>
-                                </div>
+            <div class="container-fluid header__content">
+                <div class="header__slider">
+                    <i class="fas fa-chevron-left"></i>
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+                <div class="header__book">
+                    <div class="book__content">
+                        <button>BOOK NOW</button>
+                        <p>(+71) 1234567890</p>
+                    </div>
+                    <img class="img-fluid" src="./images/img-1.png" alt="car" />
+                </div>
+                <div class="header__contact">
+                    <p>Book a City Taxi to your destination in town</p>
+                    <form action="" class="header__form">
+                        <div class="form__content">
+                            <input type="text" class="form-control" placeholder="PICKUP" />
+                            <button
+                                class="btn btn-secondary dropdown-toggle"
+                                type="button"
+                                id="dropdownMenuButton"
+                                data-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                            >
+                                DROP
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                            <input type="text" class="form-control" placeholder="WHEN" />
+                            <div class="form__search">
+                                <button>Search</button>
                             </div>
                         </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="">
-                        <i class="fa fa-angle-left"></i></a>
-                    </a>
-                    <a class="carousel-control-next" href="#main_slider" role="button" data-slide="">
-                        <i class="fa fa-angle-right"></i>
-                    </a>
-                    </a>
+                    </form>
                 </div>
-
             </div>
-        </div>
-        <div class = "clear"></div>
+        </header>
         <!-- TAXI -->
         <section id="taxi">
             <div class="container taxi">
@@ -239,91 +240,92 @@
 
         <!-- INFORMATION -->
         <section class="information">
-            <a href="#tyui" class="information__title">DOWNLOAD<p>OUR APP TODAY</p></a>
+            <a href="#tyui" class="information__title"
+                >DOWNLOAD
+                <p>OUR APP TODAY</p></a
+            >
             <div class="information__phone"></div>
         </section>
         <!-- CONTACT US -->
         <footer id="contact" class="bg-dark text-center text-white text-lg-start">
             <div class="container p-5">
-
-                    <div class="row">
-                        <div class="footer__address col-lg-3">
-                            <h5 class="text-capitalize">Address</h5>
-                            <p class="text-justify">
-                                It is a long established face that a reader will be distracted by the readable content
-                                of a page when looking at its layout. The point of using Lorem Ipsum is that it has a
-                                more-or-less normal distribution of letters,
-                            </p>
-                        </div>
-
-                        <div class="footer__links col-lg-3">
-                            <h5 class="text-capitalize">Links</h5>
-                            <ul class="list-unstyled">
-                                <li>
-                                    <img class="footer__img" src="./images/bulit-icon.png" alt="img-links" />
-                                    <a href="#" class="footer__link">Home</a>
-                                </li>
-                                <li>
-                                    <img class="footer__img" src="./images/bulit-icon.png" alt="img-links" />
-                                    <a href="#about" class="footer__link">About</a>
-                                </li>
-                                <li>
-                                    <img class="footer__img" src="./images/bulit-icon.png" alt="img-links" />
-                                    <a href="#taxi" class="footer__link">Taxi</a>
-                                </li>
-                                <li>
-                                    <img class="footer__img" src="./images/bulit-icon.png" alt="img-links" />
-                                    <a href="#booking" class="footer__link">Booking</a>
-                                </li>
-                                <li>
-                                    <img class="footer__img" src="./images/bulit-icon.png" alt="img-links" />
-                                    <a href="#contact" class="footer__link">Contact Us</a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="footer__followUs col-lg-3">
-                            <h5 class="text-capitalize">Follow Us</h5>
-
-                            <ul class="list-unstyled">
-                                <li>
-                                    <img class="footer__img" src="./images/fb-icon.png" alt="img-Facebook" />
-                                    <a href="#!" class="footer__follow">Facebook</a>
-                                </li>
-                                <li>
-                                    <img class="footer__img" src="./images/twitter-icon.png" alt="img-Facebook" />
-                                    <a href="#!" class="footer__follow">Twitter</a>
-                                </li>
-                                <li>
-                                    <img class="footer__img" src="./images/in-icon.png" alt="img-Facebook" />
-                                    <a href="#!" class="footer__follow">Linkedin</a>
-                                </li>
-                                <li>
-                                    <img class="footer__img" src="./images/youtube-icon.png" alt="img-Facebook" />
-                                    <a href="#!" class="footer__follow">Youtube</a>
-                                </li>
-                                <li>
-                                    <img class="footer__img" src="./images/instagram-icon.png" alt="img-Facebook" />
-                                    <a href="#!" class="footer__follow">Instagram</a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="footer__email col-lg-3">
-                            <h5 class="text-capitalize">Newsletter</h5>
-
-                            <form class="footer_submit-email">
-                                <input
-                                    type="email"
-                                    id="footer__btn-email"
-                                    class="form-control"
-                                    placeholder="Enter Your Email"
-                                />
-                                <button type="submit" class="btn btn-outline-light">Subscribe</button>
-                            </form>
-                        </div>
+                <div class="row">
+                    <div class="footer__address col-lg-3">
+                        <h5 class="text-capitalize">Address</h5>
+                        <p class="text-justify">
+                            It is a long established face that a reader will be distracted by the readable content of a
+                            page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                            more-or-less normal distribution of letters,
+                        </p>
                     </div>
 
+                    <div class="footer__links col-lg-3">
+                        <h5 class="text-capitalize">Links</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <img class="footer__img" src="./images/bulit-icon.png" alt="img-links" />
+                                <a href="#" class="footer__link">Home</a>
+                            </li>
+                            <li>
+                                <img class="footer__img" src="./images/bulit-icon.png" alt="img-links" />
+                                <a href="#about" class="footer__link">About</a>
+                            </li>
+                            <li>
+                                <img class="footer__img" src="./images/bulit-icon.png" alt="img-links" />
+                                <a href="#taxi" class="footer__link">Taxi</a>
+                            </li>
+                            <li>
+                                <img class="footer__img" src="./images/bulit-icon.png" alt="img-links" />
+                                <a href="#booking" class="footer__link">Booking</a>
+                            </li>
+                            <li>
+                                <img class="footer__img" src="./images/bulit-icon.png" alt="img-links" />
+                                <a href="#contact" class="footer__link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__followUs col-lg-3">
+                        <h5 class="text-capitalize">Follow Us</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <img class="footer__img" src="./images/fb-icon.png" alt="img-Facebook" />
+                                <a href="#!" class="footer__follow">Facebook</a>
+                            </li>
+                            <li>
+                                <img class="footer__img" src="./images/twitter-icon.png" alt="img-Facebook" />
+                                <a href="#!" class="footer__follow">Twitter</a>
+                            </li>
+                            <li>
+                                <img class="footer__img" src="./images/in-icon.png" alt="img-Facebook" />
+                                <a href="#!" class="footer__follow">Linkedin</a>
+                            </li>
+                            <li>
+                                <img class="footer__img" src="./images/youtube-icon.png" alt="img-Facebook" />
+                                <a href="#!" class="footer__follow">Youtube</a>
+                            </li>
+                            <li>
+                                <img class="footer__img" src="./images/instagram-icon.png" alt="img-Facebook" />
+                                <a href="#!" class="footer__follow">Instagram</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__email col-lg-3">
+                        <h5 class="text-capitalize">Newsletter</h5>
+
+                        <form class="footer_submit-email">
+                            <input
+                                type="email"
+                                id="footer__btn-email"
+                                class="form-control"
+                                placeholder="Enter Your Email"
+                            />
+                            <button type="submit" class="btn btn-outline-light">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
             </div>
 
             <!-- Copyright -->
