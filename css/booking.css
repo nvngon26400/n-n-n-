@@ -255,6 +255,11 @@
 /* -------------------ipad---------------------- */
 
 @media only screen and (min-width: 768px) {
+
+    #header .book__content button,
+    .book__content p {
+        font-size: 1.5rem;
+    }
     #header .navbar button {
         width: 15%;
     }
