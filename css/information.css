@@ -2,7 +2,7 @@
     .information{
         height: 8rem;
         margin-bottom: 2rem;
-        background-image: url("../images/img-6.png");
+        background-image: url("../images/img-8.png");
         background-repeat: no-repeat;
         background-size: cover;
     
@@ -45,6 +45,39 @@
         background-repeat: no-repeat;
         background-size: contain;
     }
+  
+    img.information__download.bdownload_1 {
+        position: absolute;
+        top: 68%;
+        right: 34%;
+        width: 15%;
+        height: 10%;
+        -webkit-transform: scale(1);
+	    transform: scale(1);
+	    -webkit-transition: .3s ease-in-out;
+	    transition: .3s ease-in-out;
+    }
+    img.information__download.bdownload_1:hover{
+        -webkit-transform: scale(1.3);
+	    transform: scale(1.3);
+    }
+    
+    img.information__download.bdownload_2 {
+        position: absolute;
+        top: 82%;
+        right: 26%;
+        width: 15%;
+        height: 10%;
+        -webkit-transform: scale(1);
+	    transform: scale(1);
+	    -webkit-transition: .3s ease-in-out;
+	    transition: .3s ease-in-out;
+    }
+    img.information__download.bdownload_2:hover{
+        -webkit-transform: scale(1.3);
+	    transform: scale(1.3);
+    }
+
 }
 
 @media only screen and (min-width: 360px){
