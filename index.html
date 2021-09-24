@@ -1,353 +1,361 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Uloax</title>
 
-        <!-- BOOTSTRAP -->
-        <link rel="stylesheet" href="./css/bootstrap.min.css" />
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-            crossorigin="anonymous"
-        ></script>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uloax</title>
 
-        <!-- RESET CSS -->
-        <link rel="stylesheet" href="./css/reset.css" />
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
 
-        <!--STYLE CSS -->
-        <link rel="stylesheet" href="./css/style.css" />
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
-            crossorigin="anonymous"
-        />
+    <!-- RESET CSS -->
+    <link rel="stylesheet" href="./css/reset.css" />
 
-        <!--font awesome icon -->
-        <script src="https://kit.fontawesome.com/c1afb31dbf.js" crossorigin="anonymous"></script>
-    </head>
+    <!--STYLE CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
 
-    <body>
-        <!-- HEADER -->
-        <header id="header">
-            <div class="container">
-                <nav class="navbar navbar-expand-md">
-                    <a class="navbar-brand" href="#">
-                        <img src="./images/logo.png" alt="logo" />
-                    </a>
+    <!--font awesome icon -->
+    <script src="https://kit.fontawesome.com/c1afb31dbf.js" crossorigin="anonymous"></script>
+</head>
 
-                    <button
-                        class="navbar-toggler header__navbar"
-                        type="button"
-                        data-toggle="collapse"
-                        data-target="#header__navbar"
-                        aria-controls="navbarSupportedContent"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span class="navbar-toggler-icon">
-                            <i class="fa fa-bars"></i>
-                        </span>
-                    </button>
+<body>
+    <!-- HEADER -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-md">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo.png" alt="logo" />
+                </a>
 
-                    <div class="collapse navbar-collapse" id="header__navbar">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Taxi</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Booking</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
+                <button class="navbar-toggler header__navbar" type="button" data-toggle="collapse"
+                    data-target="#header__navbar" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <i class="fa fa-bars"></i>
+                    </span>
+                </button>
 
-                    <i class="fa fa-search navbar__search"></i>
-                </nav>
+                <div class="collapse navbar-collapse" id="header__navbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Taxi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Booking</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <i class="fa fa-search navbar__search"></i>
+            </nav>
+        </div>
+        <div class="container-fluid header__content">
+            <div class="header__slider">
+                <i class="fas fa-chevron-left" href="#carouselExampleControls" role="button" data-slide="next"></i>
+                <i class="fas fa-chevron-right" href="#carouselExampleControls" role="button" data-slide="prev"></i>
             </div>
-            <div class="container-fluid header__content">
-                <div class="header__slider">
-                    <i class="fas fa-chevron-left" href="#carouselExampleControls" role="button" data-slide="prev"></i>
-                    <i class="fas fa-chevron-right" href="#carouselExampleControls" role="button" data-slide="next"></i>
+            <div class="header__book">
+                <div class="book__content">
+                    <button>BOOK NOW</button>
+                    <p>(+71) 1234567890</p>
                 </div>
-                <div class="header__book">
-                    <div class="book__content">
-                        <button>BOOK NOW</button>
-                        <p>(+71) 1234567890</p>
-                    </div>
-                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img class="d-block w-100 img-fluid" src="./images/img-1.png" alt="First slide">
-                          </div>
-                          <div class="carousel-item">
-                            <img class="d-block w-100" src="./images/car.png" alt="Second slide">
-                          </div>
-                          <div class="carousel-item">
-                            <img class="d-block w-100" src="./images/img-1.png" alt="Third slide">
-                          </div>
-                        </div>
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100 img-fluid" src="./images/img-1.png" alt="First slide">
                       </div>
-                </div>
-                <div class="header__contact">
-                    <p>Book a City Taxi to your destination in town</p>
-                    <form action="" class="header__form">
-                        <div class="form__content">
-                            <input type="text" class="form-control" placeholder="PICKUP" />
-                            <button
-                                class="btn btn-secondary dropdown-toggle"
-                                type="button"
-                                id="dropdownMenuButton"
-                                data-toggle="dropdown"
-                                aria-haspopup="true"
-                                aria-expanded="false"
-                            >
-                                DROP
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                            <input type="text" class="form-control" placeholder="WHEN" />
-                            <div class="form__search">
-                                <button>Search</button>
-                            </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100 img-fluid" src="./images/car.png" alt="Second slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100 img-fluid" src="./images/img-2.png" alt="Third slide">
+                      </div>
+                    </div>
+                  </div>
+                <!-- <img class="img-fluid" src="./images/img-1.png" alt="car" /> -->
+            </div>
+            <div class="header__contact">
+                <p>Book a City Taxi to your destination in town</p>
+                <form action="" class="header__form">
+                    <div class="form__content">
+                        <input type="text" class="form-control" placeholder="PICKUP" />
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            DROP
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
                         </div>
+                        <input type="text" class="form-control" placeholder="WHEN" />
+                        <div class="form__search">
+                            <button>Search</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </header>
+    <!-- TAXI -->
+    <section id="taxi">
+        <div class="container taxi">
+            <h2>
+                Our
+                <p>Taxi</p>
+            </h2>
+            <div class="row">
+                <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                    <div class="taxi__item">
+                        <div class="taxi__content">
+                            <p class="content__number">01</p>
+                            <h5>CAR 1</h5>
+                            <p class="content__description">act that a reader will be distracted</p>
+                        </div>
+                        <img class="img-fluid" src="./images/img-1.png" alt="car-1" />
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                    <div class="taxi__item">
+                        <div class="taxi__content">
+                            <p class="content__number">02</p>
+                            <h5>CAR 2</h5>
+                            <p class="content__description">act that a reader will be distracted</p>
+                        </div>
+                        <img class="img-fluid" src="./images/img-1.png" alt="car-1" />
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                    <div class="taxi__item">
+                        <div class="taxi__content">
+                            <p class="content__number">03</p>
+                            <h5>CAR 3</h5>
+                            <p class="content__description">act that a reader will be distracted</p>
+                        </div>
+                        <img class="img-fluid" src="./images/img-1.png" alt="car-1" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT -->
+
+    <!-- BOOKING -->
+    <section id="about" class="booking">
+        <a class="booking__title" href="#abcd">Why Ride <i>With Uloax</i></a>
+        <article class="booking__item">
+            <img class="item__image item__image--left" src="./images/img-3.png" alt="" />
+            <div class="item__content item__content--right">
+                <a class="content__title" href="#qwe">Uloax for Every Pocket</a>
+                <p class="content__text text-justify">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, optio. Repellendus unde
+                    voluptatibus ut laudantium aspernatur soluta, sit consequuntur repellat libero quaerat dolorem
+                    eum, natus placeat quibusdam at ullam iste. Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Sequi ratione assumenda quas dolore, neque voluptatum ut blanditiis saepe iusto distinctio
+                    earum itaque facilis dolor autem ad natus. Sequi, qui omnis. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Libero nihil doloribus non? Ad tempora accusamus, doloribus iste
+                    autem repellendus soluta magnam, dicta odit libero voluptatibus ab incidunt ullam, cumque
+                    praesentium!
+                </p>
+                <button class="content__button">BOOK NOW</button>
+            </div>
+        </article>
+        <article class="booking__item">
+            <img class="item__image item__image--right" src="./images/img-4.png" alt="" />
+            <div class="item__content item__content--left">
+                <a class="content__title content__title--right" href="#qwe">Secure and Safer Rides</a>
+                <p class="content__text content__text--right text-justify">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, optio. Repellendus unde
+                    voluptatibus ut laudantium aspernatur soluta, sit consequuntur repellat libero quaerat dolorem
+                    eum, natus placeat quibusdam at ullam iste. Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Sequi ratione assumenda quas dolore, neque voluptatum ut blanditiis saepe iusto distinctio
+                    earum itaque facilis dolor autem ad natus. Sequi, qui omnis. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Libero nihil doloribus non? Ad tempora accusamus, doloribus iste
+                    autem repellendus soluta magnam, dicta odit libero voluptatibus ab incidunt ullam, cumque
+                    praesentium!
+                </p>
+                <button class="content__button content__button--right">BOOK NOW</button>
+            </div>
+        </article>
+        <article class="booking__item">
+            <img class="item__image item__image--left" src="./images/img-5.png" alt="" />
+            <div class="item__content item__content--right">
+                <a class="content__title" href="#qwe">Uloax for Every Pocket</a>
+                <p class="content__text text-justify">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, optio. Repellendus unde
+                    voluptatibus ut laudantium aspernatur soluta, sit consequuntur repellat libero quaerat dolorem
+                    eum, natus placeat quibusdam at ullam iste. Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Sequi ratione assumenda quas dolore, neque voluptatum ut blanditiis saepe iusto distinctio
+                    earum itaque facilis dolor autem ad natus. Sequi, qui omnis. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Libero nihil doloribus non? Ad tempora accusamus, doloribus iste
+                    autem repellendus soluta magnam, dicta odit libero voluptatibus ab incidunt ullam, cumque
+                    praesentium!am at ullam iste. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+                    ratione assumenda quas dolore, neque voluptatum ut blanditiis saepe iusto distinctio earum
+                    itaque facilis dolor autem ad natus. Sequi, qui omnis. Lorem ipsum dolor am at ullam iste. Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione assumenda quas dolore, neque
+                    voluptatum ut blanditiis saepe iusto distinctio earum itaque facilis dolor autem ad natus.
+                    Sequi, qui omnis. Lorem ipsum dolor
+                </p>
+                <button class="content__button">BOOK NOW</button>
+            </div>
+        </article>
+        <article class="booking__item">
+            <img class="item__image item__image--right" src="./images/img-5.png" alt="" />
+            <div class="item__content item__content--left">
+                <a class="content__title content__title--right" href="#qwe">Secure and Safer Rides</a>
+                <p class="content__text content__text--right text-justify">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, optio. Repellendus unde
+                    voluptatibus ut laudantium aspernatur soluta, sit consequuntur repellat libero quaerat dolorem
+                    eum, natus placeat quibusdam at ullam iste. Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Sequi ratione assumenda quas dolore, neque voluptatum ut blanditiis saepe iusto distinctio
+                    earum itaque facilis dolor autem ad natus. Sequi, qui omnis. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Libero nihil doloribus non? Ad tempora accusamus, doloribus iste
+                    autem repellendus soluta magnam, dicta odit libero voluptatibus ab incidunt ullam, cumque
+                    praesentium!
+                </p>
+                <button class="content__button content__button--right">BOOK NOW</button>
+            </div>
+        </article>
+    </section>
+
+    <!-- INFORMATION -->
+    <section class="information">
+        <a href="https://play.google.com/" class="information__title">DOWNLOAD
+            <p>OUR APP TODAY</p></a>
+        <div class="information__phone"></div>
+        <a href="https://play.google.com/"><img class="information__download bdownload_1" src="./images/dow-google.png"
+                alt="dow-google"></a>
+        <a href="https://www.apple.com/app-store/"><img class="information__download bdownload_2"
+                src="./images/dow-apple.png" alt="dow-apple"></a>
+    </section>
+    <!-- CONTACT US -->
+    <footer id="contact" class="bg-dark text-center text-white text-lg-start">
+        <div class="container p-5">
+            <div class="row">
+                <div class="footer__address col-lg-3">
+                    <h5 class="text-capitalize">Address</h5>
+                    <p class="text-left">
+                        It is a long established face that a reader will be distracted by the readable content of a
+                        page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                        more-or-less normal distribution of letters,
+                    </p>
+                </div>
+
+                <div class="footer__links col-lg-3">
+                    <h5 class="text-capitalize">Links</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <img class="footer__img" src="./images/bulit-icon.png" alt="img-links" />
+                            <a href="#" class="footer__link">Home</a>
+                        </li>
+                        <li>
+                            <img class="footer__img" src="./images/bulit-icon.png" alt="img-links" />
+                            <a href="#about" class="footer__link">About</a>
+                        </li>
+                        <li>
+                            <img class="footer__img" src="./images/bulit-icon.png" alt="img-links" />
+                            <a href="#taxi" class="footer__link">Taxi</a>
+                        </li>
+                        <li>
+                            <img class="footer__img" src="./images/bulit-icon.png" alt="img-links" />
+                            <a href="#booking" class="footer__link">Booking</a>
+                        </li>
+                        <li>
+                            <img class="footer__img" src="./images/bulit-icon.png" alt="img-links" />
+                            <a href="#contact" class="footer__link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__followUs col-lg-3">
+                    <h5 class="text-capitalize">Follow Us</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <img class="footer__img" src="./images/fb-icon.png" alt="img-Facebook" />
+                            <a href="#!" class="footer__follow">Facebook</a>
+                        </li>
+                        <li>
+                            <img class="footer__img" src="./images/twitter-icon.png" alt="img-Facebook" />
+                            <a href="#!" class="footer__follow">Twitter</a>
+                        </li>
+                        <li>
+                            <img class="footer__img" src="./images/in-icon.png" alt="img-Facebook" />
+                            <a href="#!" class="footer__follow">Linkedin</a>
+                        </li>
+                        <li>
+                            <img class="footer__img" src="./images/youtube-icon.png" alt="img-Facebook" />
+                            <a href="#!" class="footer__follow">Youtube</a>
+                        </li>
+                        <li>
+                            <img class="footer__img" src="./images/instagram-icon.png" alt="img-Facebook" />
+                            <a href="#!" class="footer__follow">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__email col-lg-3">
+                    <h5 class="text-capitalize">Newsletter</h5>
+
+                    <form class="footer_submit-email">
+                        <input type="email" id="footer__btn-email" class="form-control"
+                            placeholder="Enter Your Email" />
+                        <button type="submit" class="btn btn-outline-light">Subscribe</button>
                     </form>
                 </div>
             </div>
-        </header>
-        <!-- TAXI -->
-        <section id="taxi">
-            <div class="container taxi">
-                <h2>
-                    Our
-                    <p>Taxi</p>
-                </h2>
-                <div class="row">
-                    <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                        <div class="taxi__item">
-                            <div class="taxi__content">
-                                <p class="content__number">01</p>
-                                <h5>CAR 1</h5>
-                                <p class="content__description">act that a reader will be distracted</p>
-                            </div>
-                            <img class="img-fluid" src="./images/img-1.png" alt="car-1" />
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                        <div class="taxi__item">
-                            <div class="taxi__content">
-                                <p class="content__number">02</p>
-                                <h5>CAR 2</h5>
-                                <p class="content__description">act that a reader will be distracted</p>
-                            </div>
-                            <img class="img-fluid" src="./images/img-1.png" alt="car-1" />
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
-                        <div class="taxi__item">
-                            <div class="taxi__content">
-                                <p class="content__number">03</p>
-                                <h5>CAR 3</h5>
-                                <p class="content__description">act that a reader will be distracted</p>
-                            </div>
-                            <img class="img-fluid" src="./images/img-1.png" alt="car-1" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ABOUT -->
+        </div>
 
-        <!-- BOOKING -->
-        <section id="about" class="booking">
-            <a class="booking__title" href="#abcd">Why Ride <i>With Uloax</i></a>
-            <article class="booking__item">
-                <img class="item__image item__image--left" src="./images/img-3.png" alt="" />
-                <div class="item__content item__content--right">
-                    <a class="content__title" href="#qwe">Uloax for Every Pocket</a>
-                    <p class="content__text text-justify">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, optio. Repellendus unde
-                        voluptatibus ut laudantium aspernatur soluta, sit consequuntur repellat libero quaerat dolorem
-                        eum, natus placeat quibusdam at ullam iste. Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Sequi ratione assumenda quas dolore, neque voluptatum ut blanditiis saepe iusto distinctio
-                        earum itaque facilis dolor autem ad natus. Sequi, qui omnis. Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Libero nihil doloribus non? Ad tempora accusamus, doloribus iste
-                        autem repellendus soluta magnam, dicta odit libero voluptatibus ab incidunt ullam, cumque
-                        praesentium!
-                    </p>
-                    <button class="content__button">BOOK NOW</button>
-                </div>
-            </article>
-            <article class="booking__item">
-                <img class="item__image item__image--right" src="./images/img-4.png" alt="" />
-                <div class="item__content item__content--left">
-                    <a class="content__title content__title--right" href="#qwe">Secure and Safer Rides</a>
-                    <p class="content__text content__text--right text-justify">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, optio. Repellendus unde
-                        voluptatibus ut laudantium aspernatur soluta, sit consequuntur repellat libero quaerat dolorem
-                        eum, natus placeat quibusdam at ullam iste. Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Sequi ratione assumenda quas dolore, neque voluptatum ut blanditiis saepe iusto distinctio
-                        earum itaque facilis dolor autem ad natus. Sequi, qui omnis. Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Libero nihil doloribus non? Ad tempora accusamus, doloribus iste
-                        autem repellendus soluta magnam, dicta odit libero voluptatibus ab incidunt ullam, cumque
-                        praesentium!
-                    </p>
-                    <button class="content__button content__button--right">BOOK NOW</button>
-                </div>
-            </article>
-            <article class="booking__item">
-                <img class="item__image item__image--left" src="./images/img-5.png" alt="" />
-                <div class="item__content item__content--right">
-                    <a class="content__title" href="#qwe">Uloax for Every Pocket</a>
-                    <p class="content__text text-justify">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, optio. Repellendus unde
-                        voluptatibus ut laudantium aspernatur soluta, sit consequuntur repellat libero quaerat dolorem
-                        eum, natus placeat quibusdam at ullam iste. Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Sequi ratione assumenda quas dolore, neque voluptatum ut blanditiis saepe iusto distinctio
-                        earum itaque facilis dolor autem ad natus. Sequi, qui omnis. Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Libero nihil doloribus non? Ad tempora accusamus, doloribus iste
-                        autem repellendus soluta magnam, dicta odit libero voluptatibus ab incidunt ullam, cumque
-                        praesentium!am at ullam iste. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-                        ratione assumenda quas dolore, neque voluptatum ut blanditiis saepe iusto distinctio earum
-                        itaque facilis dolor autem ad natus. Sequi, qui omnis. Lorem ipsum dolor am at ullam iste. Lorem
-                        ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione assumenda quas dolore, neque
-                        voluptatum ut blanditiis saepe iusto distinctio earum itaque facilis dolor autem ad natus.
-                        Sequi, qui omnis. Lorem ipsum dolor
-                    </p>
-                    <button class="content__button">BOOK NOW</button>
-                </div>
-            </article>
-            <article class="booking__item">
-                <img class="item__image item__image--right" src="./images/img-5.png" alt="" />
-                <div class="item__content item__content--left">
-                    <a class="content__title content__title--right" href="#qwe">Secure and Safer Rides</a>
-                    <p class="content__text content__text--right text-justify">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, optio. Repellendus unde
-                        voluptatibus ut laudantium aspernatur soluta, sit consequuntur repellat libero quaerat dolorem
-                        eum, natus placeat quibusdam at ullam iste. Lorem ipsum dolor sit amet consectetur adipisicing
-                        elit. Sequi ratione assumenda quas dolore, neque voluptatum ut blanditiis saepe iusto distinctio
-                        earum itaque facilis dolor autem ad natus. Sequi, qui omnis. Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit. Libero nihil doloribus non? Ad tempora accusamus, doloribus iste
-                        autem repellendus soluta magnam, dicta odit libero voluptatibus ab incidunt ullam, cumque
-                        praesentium!
-                    </p>
-                    <button class="content__button content__button--right">BOOK NOW</button>
-                </div>
-            </article>
-        </section>
+        <!-- Copyright -->
+        <div class="footer__copyright p-3">2019 All Rights Reserved. Free html Templates</div>
+    </footer>
 
-        <!-- INFORMATION -->
-        <section class="information">
-            <a href="#tyui" class="information__title"
-                >DOWNLOAD
-                <p>OUR APP TODAY</p></a
-            >
-            <div class="information__phone"></div>
-        </section>
-        <!-- CONTACT US -->
-        <footer id="contact" class="bg-dark text-center text-white text-lg-start">
-            <div class="container p-5">
-                <div class="row">
-                    <div class="footer__address col-lg-3">
-                        <h5 class="text-capitalize">Address</h5>
-                        <p class="text-justify">
-                            It is a long established face that a reader will be distracted by the readable content of a
-                            page when looking at its layout. The point of using Lorem Ipsum is that it has a
-                            more-or-less normal distribution of letters,
-                        </p>
-                    </div>
+    <!-- back to top -->
+    <div class="scroll-to-top scroll-to-target" style="display: block;">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    <script src="https://nguyenvandinh.com/Content/template/ANThanhs/js/jquery-2.1.4.min.js" type="text/javascript">
+    </script>
+    <script>
+        var offset = 200;
+        var duration = 500;
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > offset) {
+                $('.scroll-to-top').fadeIn(400);
+            } else {
+                $('.scroll-to-top').fadeOut(400);
+            }
+        });
+        $('.scroll-to-top').click(function (event) {
+            event.preventDefault();
+            $('html, body').animate({
+                scrollTop: 0
+            }, 600);
+            return false;
+        });
+    </script>
+</body>
 
-                    <div class="footer__links col-lg-3">
-                        <h5 class="text-capitalize">Links</h5>
-                        <ul class="list-unstyled">
-                            <li>
-                                <img class="footer__img" src="./images/bulit-icon.png" alt="img-links" />
-                                <a href="#" class="footer__link">Home</a>
-                            </li>
-                            <li>
-                                <img class="footer__img" src="./images/bulit-icon.png" alt="img-links" />
-                                <a href="#about" class="footer__link">About</a>
-                            </li>
-                            <li>
-                                <img class="footer__img" src="./images/bulit-icon.png" alt="img-links" />
-                                <a href="#taxi" class="footer__link">Taxi</a>
-                            </li>
-                            <li>
-                                <img class="footer__img" src="./images/bulit-icon.png" alt="img-links" />
-                                <a href="#booking" class="footer__link">Booking</a>
-                            </li>
-                            <li>
-                                <img class="footer__img" src="./images/bulit-icon.png" alt="img-links" />
-                                <a href="#contact" class="footer__link">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
+<!-- JQUERY -->
+<script src="./js/jquery.min.js"></script>
 
-                    <div class="footer__followUs col-lg-3">
-                        <h5 class="text-capitalize">Follow Us</h5>
+<!-- BOOTSTRAP -->
+<script src="./js/bootstrap.bundle.min.js"></script>
 
-                        <ul class="list-unstyled">
-                            <li>
-                                <img class="footer__img" src="./images/fb-icon.png" alt="img-Facebook" />
-                                <a href="#!" class="footer__follow">Facebook</a>
-                            </li>
-                            <li>
-                                <img class="footer__img" src="./images/twitter-icon.png" alt="img-Facebook" />
-                                <a href="#!" class="footer__follow">Twitter</a>
-                            </li>
-                            <li>
-                                <img class="footer__img" src="./images/in-icon.png" alt="img-Facebook" />
-                                <a href="#!" class="footer__follow">Linkedin</a>
-                            </li>
-                            <li>
-                                <img class="footer__img" src="./images/youtube-icon.png" alt="img-Facebook" />
-                                <a href="#!" class="footer__follow">Youtube</a>
-                            </li>
-                            <li>
-                                <img class="footer__img" src="./images/instagram-icon.png" alt="img-Facebook" />
-                                <a href="#!" class="footer__follow">Instagram</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="footer__email col-lg-3">
-                        <h5 class="text-capitalize">Newsletter</h5>
-
-                        <form class="footer_submit-email">
-                            <input
-                                type="email"
-                                id="footer__btn-email"
-                                class="form-control"
-                                placeholder="Enter Your Email"
-                            />
-                            <button type="submit" class="btn btn-outline-light">Subscribe</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Copyright -->
-            <div class="footer__copyright p-3">2019 All Rights Reserved. Free html Templates</div>
-        </footer>
-    </body>
-
-    <!-- JQUERY -->
-    <script src="./js/jquery.min.js"></script>
-
-    <!-- BOOTSTRAP -->
-    <script src="./js/bootstrap.bundle.min.js"></script>
 </html>

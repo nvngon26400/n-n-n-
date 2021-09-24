@@ -1,44 +1,70 @@
-@media only screen and (min-width: 320px){
+@media only screen and (min-width: 320px) {
     /*======== Header =========*/
     .booking {
         width: 70%;
         margin: 4rem auto 0;
     }
 
-    .header__slider, .header__book {
-        display: none;
+    .header__search,
+    #header .navbar button {
+        background-color: #2e383c8f;
+        width: 100%;
     }
 
     #header .navbar {
         padding: 0 2.5rem;
-    }   
-    
+    }
+
     .navbar-toggler {
         color: #ffffff;
     }
 
-    .header__navbar{
+    .header__navbar {
         margin: 1rem 0;
     }
 
-    #header__navbar ul li  {
-        padding: 0.8rem 0;
-        padding: 0.8rem 0;
+    #header__navbar ul li {
+        padding: 0.6rem 0;
         background-color: currentcolor;
         margin: 0.4rem 0;
     }
 
     .navbar__search {
-        padding: 1rem 2rem;
-        width: 100%;
-        background-color: #3e3932;
+        padding: 0.8rem 1.5rem;
     }
 
     .header__contact {
         width: 100%;
         padding-left: 0;
     }
-    
+
+    .header__content {
+        display: block;
+    }
+
+    .header__slider {
+        display: none;
+    }
+
+    .header__book,
+    .header__contact {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .header__contact p {
+        font-size: 1.5rem;
+        padding-top: 2rem;
+    }
+
+    #header__navbar ul {
+        width: 100%;
+    }
+
+    .header__contact .form__search button {
+        width: 40%;
+    }
+
     /* -----------------style title booking------------------------- */
 
     .booking__title {
@@ -143,8 +169,10 @@
 }
 
 @media only screen and (min-width: 480px) {
+    .header__book,
     .header__contact {
-        width: 100%;
+        width: 80%;
+        margin: 0 auto;
     }
 
     .booking__title {
@@ -172,7 +200,34 @@
 }
 
 @media only screen and (min-width: 640px) {
+    /*=======HEADER========*/
+    .header__content {
+        display: flex;
+        width: 80% !important;
+        margin: 0 auto;
+    }
 
+    #header .book__content button,
+    .book__content p {
+        font-size: 1rem;
+    }
+
+    .book__content p {
+        padding: 0.5rem 1rem 1rem 1rem;
+    }
+
+    .header__contact p {
+        padding-top: 0;
+    }
+
+    #header .navbar button {
+        width: 37%;
+    }
+
+    .header__book {
+        padding-right: 2rem;
+    }
+    /*-------*/
     .booking__title {
         font-size: 2.2rem;
     }
@@ -200,14 +255,12 @@
 /* -------------------ipad---------------------- */
 
 @media only screen and (min-width: 768px) {
-    .navbar__search {
-        display: none;
+    #header .navbar button {
+        width: 15%;
     }
-    #header__navbar ul li {
-        background-color: transparent;
-        padding: 0px 0px;
-        margin: 0px 0px;
 
+    #header__navbar ul li {
+        padding: 0 0;
     }
 
     #header__navbar ul li a {
@@ -304,24 +357,34 @@
 }
 
 @media only screen and (min-width: 992px) {
-    .book__content {
-        width: 100%;
+    .header__content {
+        display: flex;
+        width: 100% !important;
+        margin: 0 auto;
     }
 
-    .header__book, .navbar__search, .header__slider {
+    .header__slider {
         display: block;
+    }
+
+    #header__navbar ul li{
+        background-color: transparent;
+    }
+
+    #header .navbar button {
+        background-color: transparent;
+    }
+
+    .book__content {
+        width: 100%;
     }
 
     .header__book {
         width: 45%;
     }
-    
+
     #header .navbar {
         padding: 0 5.5rem;
-    }
-
-    #header__navbar ul li a {
-        padding: 1rem 1.5rem;
     }
 
     .header__contact {
@@ -332,7 +395,7 @@
     .header__book {
         width: 45%;
     }
-    
+
     .booking__title {
         font-size: 2.5rem;
         width: 65%;
@@ -385,7 +448,6 @@
 }
 
 @media only screen and (min-width: 1200px) {
-
     .booking__title {
         font-size: 2.1rem;
         width: 48%;

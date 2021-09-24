@@ -3,15 +3,30 @@
     background-color: #1a1a1a;
 }
 
-#header__navbar ul {
+/* #header__navbar ul {
     width: 34rem;
-}
+} */
 
 #header__navbar ul li a {
     color: #ffffff;
     font-weight: 500;
     font-size: 1.2rem;
     padding: 0 2rem ;
+    text-align: center;
+}
+
+#header__navbar ul li:hover a, .header__search:hover i {
+    color: #ebda37;
+}
+
+.header__search {
+    background: transparent;
+    border: none;
+    text-align: center;
+}
+
+.book__content:hover button {
+    color: #e12525;
 }
 
 #header .navbar {
@@ -23,9 +38,8 @@
 }
 
 .navbar__search {
+    padding: 0.8rem 1.5rem;
     color: #ffffff;
-    font-size: 1.3rem;
-    cursor: pointer;
 }
 
 .navbar-brand {
@@ -34,7 +48,7 @@
 
 .book__content {
     background-color: #f8ca11;
-    width: 34rem;
+    /* width: 34rem; */
     text-align: center;
     margin-bottom: 3.5rem;
 }
@@ -52,7 +66,11 @@
     font-weight: 500;
     font-size: 1.8rem;
     padding-bottom: 0.5rem;
-    flex: 1;
+    padding:  1rem;
+}
+
+.book__content button, .book__content p  {
+    font-size: 1.5rem;
 }
 
 .header__content {
@@ -164,4 +182,12 @@
 .header__slider i:last-child:hover {
     border: 1px solid #d6cbcb;
     background-color: #d6cbcb;
+}
+
+#header .navbar span {
+    line-height: 1.5rem;
+}
+
+#header .navbar button:focus {
+    box-shadow: 0 0 0 0;
 }
