@@ -22,8 +22,8 @@
     
     .information__title:hover, .information__title:active{
         transition: all .3s;
+        top: 16%;
         color: black;
-        font-weight: 700;
         text-decoration: none;
     }
 

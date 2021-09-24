@@ -104,6 +104,11 @@
         cursor: pointer;
     }
 
+    .item__image:hover, .item__image:hover{
+        transition: all .3s;
+        filter:drop-shadow(0px 0px 10px gray);
+    }
+
     /* ----------------- content------------------------- */
 
     .item__content {
@@ -155,8 +160,10 @@
 
     .content__button:hover,
     .content__button:focus {
-        background-color: rgb(218, 174, 0);
-        outline: none;
+        background-color: transparent;
+        font-size: 90%;
+        color: rgb(246, 225, 81);
+        outline: 2px solid rgb(246, 225, 81);
         transition: all 0.3s;
     }
 }
@@ -184,6 +191,11 @@
         width: 7.5rem;
         height: 2.2rem;
         font-size: 1rem;
+    }
+
+    .content__button:hover,
+    .content__button:focus {
+        font-size: 110%;
     }
 }
 
@@ -232,6 +244,11 @@
         width: 8.5rem;
         height: 2.4rem;
         font-size: 1.1rem;
+    }
+
+    .content__button:hover,
+    .content__button:focus {
+        font-size: 120%;
     }
 }
 
@@ -333,8 +350,9 @@
         align-self: flex-end;
     }
 
-    .navbar__search {
-        padding: 0.6rem 1rem;
+    .content__button:hover,
+    .content__button:focus {
+        font-size: 90%;
     }
 }
 
@@ -422,6 +440,11 @@
         width: 9rem;
         font-size: 1.2rem;
     }
+
+    .content__button:hover,
+    .content__button:focus {
+        font-size: 130%;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -453,6 +476,11 @@
         width: 7.5rem;
         font-size: 0.9rem;
     }
+
+    .content__button:hover,
+    .content__button:focus {
+        font-size: 110%;
+    }
 }
 
 @media only screen and (min-width: 1400px) {
@@ -479,5 +507,10 @@
         height: 3rem;
         width: 10rem;
         font-size: 1.1rem;
+    }
+
+    .content__button:hover,
+    .content__button:focus {
+        font-size: 140%;
     }
 }
